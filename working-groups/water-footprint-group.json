@@ -1,0 +1,26 @@
+{
+  "id": "water-footprint-group",
+  "name": "Water Footprint Group",
+  "description": "The Water Footprint Group aims at developing the adequate Data Model Extensions to calculate the water footprint of a given product",
+  "work_in_progress": {
+    "extensions": [
+      {
+        "id": "@wwf/water-footprint",
+        "version": "0.6.1"
+      }
+    ],
+    "solutions": [
+      {
+        "id": "some-solution"
+      }
+    ]
+  },
+  "members": [
+    {
+      "user_id": "wbcsd"
+    },
+    {
+      "user_id": "some-solutionprovider"
+    }
+  ]
+}

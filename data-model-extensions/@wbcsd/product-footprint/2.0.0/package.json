@@ -1,0 +1,38 @@
+{
+  "name": "@wbcsd/product-footprint",
+  "version": "2.0.0",
+  "description": "WBCSD Product footprint",
+  "files": [
+    "schema.json"
+  ],
+  "author": {
+    "name": "World Business Council for Sustainable Development",
+    "email": "info@wbcsd.org",
+    "url": "https://www.wbcsd.org"
+  },
+  "contributors": [
+    {
+      "name": "Acme Steel Manufacturer",
+      "email": "info@steel-inc.com",
+      "url": "https://www.steel-inc.com/"
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "catalog_info": {
+    "summary": "This is the WBCSD Product Footprint Data Model Extension.",
+    "status": "published",
+    "authors": [
+      "wbcsd",
+      "acme-steel-manufacturer"
+    ]
+  },
+  "industries": [
+    "steel",
+    "automotive",
+    "chemical",
+    "logistics"
+  ]
+}
