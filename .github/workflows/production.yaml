@@ -21,12 +21,12 @@ jobs:
       - name: Restructure frontend files
         run: |
           cd frontend
-          echo "Moving files from .pact-catalog-web-app/app to ."
-          mv ./pact-catalog-web-app/app/* ./
+          echo "Moving files from ./frontend/pact-catalog-web-app/app to ."
+          mv ./frontend/pact-catalog-web-app/app/* ./frontend
           echo "Moving .gitignore to ."
-          mv ./pact-catalog-web-app/.gitignore ./
+          mv ./frontend/pact-catalog-web-app/.gitignore ./frontend
           echo "Deleting ./pact-catalog-web-app"
-          rm -f -r ./pact-catalog-web-app
+          rm -f -r ./frontend/pact-catalog-web-app
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
       - name: Pull Vercel Environment Information
