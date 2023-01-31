@@ -12,11 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Checkout frontend
-        env:
-          TOKEN: ${{ secrets.PAT }}
         uses: actions/checkout@v2
         with:
           repository: sine-fdn/pact-catalog-web-app
+          token: ${{ secrect.PAT }}
           path: ./frontend
           ref: repo-split
       - name: Restructure frontend files
