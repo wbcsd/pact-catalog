@@ -17,6 +17,7 @@ jobs:
           repository: sine-fdn/pact-catalog-web-app
           path: ./frontend
           ref: repo-split
+      - name: Restructure frontend files
         run: |
           cd frontend
           echo "Moving files from .pact-catalog-web-app/app to ."
