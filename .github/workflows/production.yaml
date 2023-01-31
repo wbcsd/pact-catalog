@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Checkout frontend
-        run: ../build-frontend.sh
+        run: ./build-frontend.sh
         shell: bash
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
