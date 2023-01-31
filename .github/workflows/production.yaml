@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           repository: sine-fdn/pact-catalog-web-app
-          token: ${{ secrect.PAT }}
+          token: ${{ secret.PAT }}
           path: ./frontend
           ref: repo-split
       - name: Restructure frontend files
