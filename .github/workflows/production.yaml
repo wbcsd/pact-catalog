@@ -12,14 +12,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Checkout frontend
-        run: cd frontend
-        run: git clone --branch repo-split git@github.com:sine-fdn/pact-catalog-web-app.git
-        run: echo "Moving files from .pact-catalog-web-app/app to ."
-        run: mv ./pact-catalog-web-app/app/* ./
-        run: echo "Moving .gitignore to ."
-        run: mv ./pact-catalog-web-app/.gitignore ./
-        run: echo "Deleting ./pact-catalog-web-app"
-        run: rm -f -r ./pact-catalog-web-app
+        run: |
+        cd frontend
+        git clone --branch repo-split git@github.com:sine-fdn/pact-catalog-web-app.git
+        echo "Moving files from .pact-catalog-web-app/app to ."
+        mv ./pact-catalog-web-app/app/* ./
+        echo "Moving .gitignore to ."
+        mv ./pact-catalog-web-app/.gitignore ./
+        echo "Deleting ./pact-catalog-web-app"
+        rm -f -r ./pact-catalog-web-app
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
       - name: Pull Vercel Environment Information
