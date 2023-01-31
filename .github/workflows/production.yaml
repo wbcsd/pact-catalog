@@ -12,6 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Checkout frontend
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
         uses: actions/checkout@v2
         with:
           repository: sine-fdn/pact-catalog-web-app
