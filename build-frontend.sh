@@ -6,3 +6,4 @@ npm install
 npm install --global vercel@latest
 vercel build --cwd frontend
 vercel deploy
+# test
