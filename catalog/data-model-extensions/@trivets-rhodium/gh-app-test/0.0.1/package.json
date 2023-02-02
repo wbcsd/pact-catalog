@@ -1,0 +1,24 @@
+{
+  "name": "@trivets-rhodium/gh-app-test",
+  "version": "0.0.1",
+  "description": "GH App test",
+  "files": [
+    "schema.json"
+  ],
+  "author": {
+    "name": "Trivets",
+    "email": "trivets@email.com",
+    "url": "https://trivets.org"
+  },
+  "license": "MIT",
+  "catalog_info": {
+    "summary": "",
+    "status": "draft",
+    "authors": [
+      "trivets-rhodium"
+    ]
+  },
+  "industries": [
+    "steel"
+  ]
+}
