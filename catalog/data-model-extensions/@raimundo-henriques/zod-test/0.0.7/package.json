@@ -1,0 +1,24 @@
+{
+  "name": "@raimundo-henriques/zod-test",
+  "version": "0.0.7",
+  "description": "Zod Test",
+  "files": [
+    "schema.json"
+  ],
+  "author": {
+    "name": "Raimundo Henriques",
+    "email": "raimundo.henriques@gmail.com",
+    "url": "https://www.linkedin.com/in/raimundo-henriques/"
+  },
+  "license": "MIT",
+  "catalog_info": {
+    "summary": "",
+    "status": "draft",
+    "authors": [
+      "raimundo-henriques"
+    ]
+  },
+  "industries": [
+    "steel"
+  ]
+}
