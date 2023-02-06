@@ -1,0 +1,24 @@
+{
+  "name": "@trivets-rhodium/test-6-feb",
+  "version": "0.0.0",
+  "description": "Test 6 February",
+  "files": [
+    "schema.json"
+  ],
+  "author": {
+    "name": "Raimundo",
+    "email": "trivets@rhodium.com",
+    "url": "https://trivets.rhodium"
+  },
+  "license": "MIT",
+  "catalog_info": {
+    "summary": "",
+    "status": "draft",
+    "authors": [
+      "trivets-rhodium"
+    ]
+  },
+  "industries": [
+    "steel"
+  ]
+}
