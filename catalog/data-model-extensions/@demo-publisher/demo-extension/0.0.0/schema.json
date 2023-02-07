@@ -1,1 +1,21 @@
-"{\n  \"$id\": \"https://catalog.carbon-transparency.com/data-model-extension/@demo-publisher/demo-extension/0.0.0/schema.json\",\n  \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n  \"title\": \"Demo Extension\",\n  \"type\": \"object\",\n  \"properties\": {\n    \"propertyOne\": {\n      \"type\": \"string\",\n      \"description\": \"The description of the first property.\"\n    },\n    \"propertyTwo\": {\n      \"type\": \"string\",\n      \"description\": \"The description of the second property.\"\n    },\n    \"propertyThree\": {\n      \"description\": \"The description of the third property.\",\n      \"type\": \"integer\",\n      \"minimum\": 0\n    }\n  }\n}\n"
+{
+  "$id": "https://catalog.carbon-transparency.com/data-model-extension/@demo-publisher/demo-extension/0.0.0/schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Demo Extension",
+  "type": "object",
+  "properties": {
+    "propertyOne": {
+      "type": "string",
+      "description": "The descriptioof the first property."
+    },
+    "propertyTwo": {
+      "type": "string",
+      "description": "The descriptioof the second property."
+    },
+    "propertyThree": {
+      "description": "The descriptioof the third property.",
+      "type": "integer",
+      "minimum": 0
+    }
+  }
+}
