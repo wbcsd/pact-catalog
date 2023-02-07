@@ -1,0 +1,24 @@
+{
+  "name": "@bhadley/test_name_here",
+  "version": "1.0.0",
+  "description": "Here is a description",
+  "files": [
+    "schema.json"
+  ],
+  "author": {
+    "name": "Beth Hadley",
+    "email": "hadley@wbcsd.org",
+    "url": "https://www.carbon-transparency.com/"
+  },
+  "license": "MIT",
+  "catalog_info": {
+    "summary": "How is this different than the Description field?",
+    "status": "draft",
+    "authors": [
+      "bhadley"
+    ]
+  },
+  "industries": [
+    "Automotive"
+  ]
+}
