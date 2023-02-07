@@ -1,0 +1,25 @@
+{
+  "name": "@raimundo-henriques/test-demo",
+  "version": "0.0.1",
+  "description": "Demo Test",
+  "files": [
+    "schema.json"
+  ],
+  "author": {
+    "name": "Raimundo Henriques",
+    "email": "raimundo.henriques@gmail.com",
+    "url": "https://www.linkedin.com/in/raimundo-henriques/"
+  },
+  "license": "MIT",
+  "catalog_info": {
+    "summary": "Summary",
+    "status": "draft",
+    "authors": [
+      "raimundo-henriques"
+    ]
+  },
+  "industries": [
+    "steel",
+    "chemical"
+  ]
+}
