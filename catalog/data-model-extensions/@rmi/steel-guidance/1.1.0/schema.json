@@ -1,5 +1,5 @@
 {
-  "$id": "https://catalog.carbon-transparency.com/data-model-extension/@rmi/steel-guidance/1.1.0/schema.json",
+  "$id": "https://pact-catalog.sine.dev/schemas/@rmi-steel-guidance-1.1.0.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "RMI Steel Guidance Data Model Extensions",
   "type": "object",
