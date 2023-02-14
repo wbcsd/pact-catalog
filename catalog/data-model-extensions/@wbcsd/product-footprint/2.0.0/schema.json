@@ -1,5 +1,5 @@
 {
-  "$id": "https://catalog.carbon-transparency.com/data-model-extension/@wbcsd/product-footprint/2.0.0/schema.json",
+  "$id": "https://pact-catalog/schemas/@wbcsd-product-footprint-2.0.0.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "WBCSD Product Footprint Data Model Extension",
   "type": "object",
