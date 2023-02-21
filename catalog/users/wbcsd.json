@@ -4,7 +4,7 @@
   "name": "World Business Council for Sustainable Development (WBCSD)",
   "email": "info@wbcsd.org",
   "website": "https://www.wbcsd.org",
-  "logo": "https://www.wbcsd.org.com/logo.png",
+  "logo": "",
   "extensions_endorsed": [
     {
       "id": "@rmi/steel-guidance",

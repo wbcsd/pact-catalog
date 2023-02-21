@@ -4,7 +4,7 @@
   "name": "Sustainable Steel Software Inc.",
   "email": "info@sustainable-steel-software.com",
   "website": "https://www.sustainable-steel-software.com",
-  "logo": "https://www.sustainable-steel-software.com/wp-content/uploads/2019/01/logo.png",
+  "logo": "",
   "extensions_support": [
     {
       "id": "@rmi/steel-guidance",

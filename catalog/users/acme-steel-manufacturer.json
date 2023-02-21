@@ -4,7 +4,7 @@
   "name": "Acme Steel Manufacturer Inc.",
   "email": "info@steel-inc.com",
   "website": "https://www.steel-inc.com",
-  "logo": "https://www.steel-inc.com/logo.png",
+  "logo": "",
   "extensions_endorsed": [
     {
       "id": "@rmi/steel-guidance",

@@ -4,7 +4,7 @@
   "name": "Some Solution Provider Inc.",
   "email": "info@some-solutionprovider.com",
   "website": "https://www.some-solutionprovider.com",
-  "logo": "https://www.some-solutionprovider.com/wp-content/uploads/2019/01/logo.png",
+  "logo": "",
   "extensions_support": [
     {
       "id": "@rmi/steel-guidance",

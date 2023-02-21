@@ -4,7 +4,7 @@
   "name": "Rocky Mountain Institute",
   "email": "info@rmi.org",
   "website": "https://www.rmi.org",
-  "logo": "https://www.solutionprovider.com/wp-content/uploads/2019/01/logo.png",
+  "logo": "https://rmi.org/wp-content/uploads/2021/08/rmi_logo_horitzontal_no_tagline.svg",
   "extensions_endorsed": [
     {
       "id": "@wwf/water-footprint",
