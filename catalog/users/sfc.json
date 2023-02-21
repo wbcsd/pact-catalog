@@ -1,0 +1,14 @@
+{
+  "id": "sfc",
+  "kind": "ngo",
+  "name": "Smart Freight Centre",
+  "email": "info@sfc.org",
+  "website": "https://www.smartfreightcentre.org/en/",
+  "logo": "https://www.smartfreightcentre.org/img/singles/SFC-logo.png",
+  "extensions_endorsed": [
+    {
+      "id": "@wwf/water-footprint",
+      "version": "0.6.1"
+    }
+  ]
+}
