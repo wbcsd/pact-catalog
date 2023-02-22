@@ -1,0 +1,14 @@
+{
+    "id": "sap",
+    "kind": "solutionprovider",
+    "name": "SAP",
+    "email": "info@sap.org",
+    "website": "https://www.sap.com",
+    "logo": "https://www.sap.com/dam/application/shared/logos/sap-logo-svg.svg/sap-logo-svg.svg",
+    "extensions_endorsed": [
+      {
+        "id": "@wwf/water-footprint",
+        "version": "0.6.1"
+      }
+    ]
+  }
