@@ -1,0 +1,14 @@
+{
+    "id": "circular-tree",
+    "kind": "solutionprovider",
+    "name": "Circular Tree",
+    "email": "info@circular-tree.org",
+    "website": "https://www.circulartree.com",
+    "logo": "https://static1.s123-cdn-static-a.com/uploads/5189096/800_63cfab72f085b_filter_63cfabb0295ad.png",
+    "extensions_endorsed": [
+      {
+        "id": "@wwf/water-footprint",
+        "version": "0.6.1"
+      }
+    ]
+  }

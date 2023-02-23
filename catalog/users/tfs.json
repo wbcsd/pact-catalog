@@ -1,0 +1,14 @@
+{
+  "id": "tfs",
+  "kind": "ngo",
+  "name": "Together for Sustainability",
+  "email": "info@tfs.org",
+  "website": "https://www.tfs-initiative.com/",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f2/TfS-Logo.jpg",
+  "extensions_endorsed": [
+    {
+      "id": "@wwf/water-footprint",
+      "version": "0.6.1"
+    }
+  ]
+}
