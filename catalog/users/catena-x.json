@@ -4,7 +4,7 @@
   "name": "Catena-X",
   "email": "info@catena-x.org",
   "website": "https://catena-x.net/",
-  "logo": "http://localhost:3000/logos/catena-x-logo.png",
+  "logo": "https://pact-catalog.sine.dev/logos/catena-x-logo.png",
   "extensions_endorsed": [
     {
       "id": "@wwf/water-footprint",
