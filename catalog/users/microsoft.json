@@ -1,14 +1,14 @@
 {
-    "id": "microsoft",
-    "kind": "solutionprovider",
-    "name": "Microsoft",
-    "email": "info@microsoft.org",
-    "website": "https://www.microsoft.com",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png",
-    "extensions_endorsed": [
-      {
-        "id": "@wwf/water-footprint",
-        "version": "0.6.1"
-      }
-    ]
-  }
+  "id": "microsoft",
+  "kind": "solutionprovider",
+  "name": "Microsoft",
+  "email": "info@microsoft.org",
+  "website": "https://www.microsoft.com",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/2560px-Microsoft_logo_%282012%29.svg.png",
+  "extensions_endorsed": [
+    {
+      "id": "@wwf/water-footprint",
+      "version": "0.6.1"
+    }
+  ]
+}
