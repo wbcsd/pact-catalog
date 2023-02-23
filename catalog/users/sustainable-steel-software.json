@@ -3,8 +3,8 @@
   "kind": "solutionprovider",
   "name": "Sustainable Steel Software Inc.",
   "email": "info@sustainable-steel-software.com",
-  "website": "https://www.sustainable-steel-software.com",
-  "logo": "",
+  "website": "https://pact-catalog.sine.dev/logos/sustainable-steel-logo.svg",
+  "logo": "https://pact-catalog.sine.dev/logos/sustainable-steel-logo.svg",
   "extensions_support": [
     {
       "id": "@rmi/steel-guidance",
