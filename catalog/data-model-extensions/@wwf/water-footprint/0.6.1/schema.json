@@ -1,7 +1,7 @@
 {
   "$id": "https://pact-catalog/schemas/@wwf-water-footprint-0.6.1.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "WWF Water Tootprint Data Model Extension",
+  "title": "WWF Water Tootprint Extension",
   "type": "object",
   "properties": {
     "propertyOne": {

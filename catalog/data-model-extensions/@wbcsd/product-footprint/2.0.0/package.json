@@ -22,7 +22,7 @@
   },
   "license": "MIT",
   "catalog_info": {
-    "summary": "This is the WBCSD Product Footprint Data Model Extension.",
+    "summary": "This is the WBCSD Product Footprint Extension.",
     "status": "published",
     "authors": [
       "wbcsd",

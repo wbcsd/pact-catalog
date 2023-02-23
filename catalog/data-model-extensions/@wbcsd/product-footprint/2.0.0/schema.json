@@ -1,7 +1,7 @@
 {
   "$id": "https://pact-catalog/schemas/@wbcsd-product-footprint-2.0.0.schema.json",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "WBCSD Product Footprint Data Model Extension",
+  "title": "WBCSD Product Footprint Extension",
   "type": "object",
   "properties": {
     "propertyOne": {
