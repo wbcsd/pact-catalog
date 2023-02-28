@@ -1,6 +1,6 @@
 {
   "id": "second-test-solution",
-  "name": "PACT Compliant Solution",
+  "name": "PACT Conforming Solution",
   "website": "https://pact-catalog.sine.dev",
   "provider": "some-solutionprovider",
   "summary": "This is a test solution",
