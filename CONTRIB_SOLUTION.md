@@ -28,7 +28,7 @@ touch catalog/solutions/[solution-id].json
 
 ### 4. Fill in your solution's details
 
-Open the `json` file created in step 3. and fill adapting the following structure:
+Open the `json` file created in step 3. and fill it adapting the following structure:
 
 ```json
 {
@@ -65,7 +65,7 @@ From the parent directory of the repository, run
 ```sh
 git add .
 git commit -m "feat: add [solution-id] solution"
-git push origin [your-branch]
+git push origin [your-name]
 ```
 
 ### 6. Open a Pull Request
