@@ -32,8 +32,11 @@ From the parent directory of your local repository run
 
 ```sh
 cd catalog/data-model-extensions/@[your-name]/[extension-id]/[extension-version]
-touch index.js && touch LICENSE && touch package.json && schema.json
+touch index.js && touch LICENSE && touch package.json && touch schema.json
 ```
+
+Fill the `schema.json` with your extension (see [the Pathfinder Technical Specification about Data Model Extensions](https://wbcsd.github.io/data-model-extensions/guidance/#catalog-data-attributes) for further details).
+
 
 It is optional, but highly recommended, that you include also a `README.md` file. If so, please include it in a subdirectory called `documentation`:
 
