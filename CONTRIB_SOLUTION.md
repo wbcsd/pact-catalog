@@ -23,7 +23,7 @@ git checkout -b <your-name>
 From the parent directory of your local repository run
 
 ```sh
-touch catalog/solutions/<solution-id>.json
+touch catalog/solutions/<your-solution-id>.json
 ```
 
 ### 4. Fill in your solution's details
@@ -32,7 +32,7 @@ Open the `json` file created in step 3. and fill it adapting the following struc
 
 ```json
 {
-  "id": "<solution-id>",
+  "id": "<your-solution-id>",
   "name": "<solution-name>",
   "website": "<solution-website>",
   "provider": "<your-name>",
@@ -60,7 +60,37 @@ There is no limit to the number of extensions and industries.
 
 ### 5. Create a new `json` file in the `conformance-tests` directory
 
+> **_NOTE:_** If your solution has not yet been tested for conformance, please jump to step `7.`
+
+From the parent directory of your local repository run
+
+```sh
+touch catalog/conformance-tests/result-<your-solution-id>.json
+```
+
 ### 6. Fill in the conformance test details
+
+Open the `json` file created in step 5. and fill it adapting the following structure:
+
+```json
+{
+  "system_under_test": "<your-solution-id>",
+  "system_tester": "<tester-solution-id>",
+  "test_result": "passed",
+  "test_date": "<date>"
+}
+```
+
+If your solution was tested for specific extensions, please add also the field `"tests"`, based on the following structure:
+
+```json
+  "tests": [
+    {
+      "extension": "<extension-id>",
+      "version": "<extension-version>"
+    }
+  ]
+```
 
 ### 7. Commit and push your branch
 
