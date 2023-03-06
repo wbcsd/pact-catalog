@@ -1,7 +1,7 @@
 {
   "system_under_test": "steel-industry-solution",
   "system_tester": "some-solution",
-  "test_result": "PACT conforming",
+  "test_result": "passed",
   "test_date": "2022-01-11T08:12:23Z",
   "tests": [
     {

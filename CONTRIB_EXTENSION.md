@@ -15,7 +15,7 @@ git clone git@github.com:sine-fdn/pact-catalog.git
 Run
 
 ```sh
-git checkout -b [your-name]
+git checkout -b <your-name>
 ```
 
 ### 3. Create a new folder in the `data-mode-extensions` directory
@@ -23,7 +23,7 @@ git checkout -b [your-name]
 From the parent directory of your local repository run
 
 ```sh
-mkdir -p catalog/data-model-extensions/@[your-name]/[extension-id]/[extension-version]
+mkdir -p catalog/data-model-extensions/@<your-name>/<extension-id>/<extension-version>
 ```
 
 ### 4. Populate your extension's directory with the necessary files
@@ -31,17 +31,16 @@ mkdir -p catalog/data-model-extensions/@[your-name]/[extension-id]/[extension-ve
 From the parent directory of your local repository run
 
 ```sh
-cd catalog/data-model-extensions/@[your-name]/[extension-id]/[extension-version]
+cd catalog/data-model-extensions/@<your-name>/<extension-id>/<extension-version>
 touch index.js && touch LICENSE && touch package.json && touch schema.json
 ```
 
 Fill the `schema.json` with your extension (see [the Pathfinder Technical Specification about Data Model Extensions](https://wbcsd.github.io/data-model-extensions/guidance/#catalog-data-attributes) for further details).
 
-
 It is optional, but highly recommended, that you include also a `README.md` file. If so, please include it in a subdirectory called `documentation`:
 
 ```sh
-cd catalog/data-model-extensions/@[your-name]/[extension-id]/[extension-version]
+cd catalog/data-model-extensions/@<your-name>/<extension-id>/<extension-version>
 mkdir documentation
 touch README.md
 ```
@@ -52,28 +51,22 @@ Open the `package.json` file created in step 4. and fill it adapting the followi
 
 ```json
 {
-  "name": "@[your-name]/[extension-id]",
-  "version": "[extension-version]",
-  "description": "[Short Description of the Extension]",
-  "files": [
-    "schema.json"
-  ],
+  "name": "@<your-name>/<extension-id>",
+  "version": "<extension-version>",
+  "description": "<Short Description of the Extension>",
+  "files": ["schema.json"],
   "author": {
-    "name": "[Institution's name]",
-    "email": "[email]",
-    "url": "[website]"
+    "name": "<Institution's name>",
+    "email": "<email>",
+    "url": "<website>"
   },
-  "license": "[license-type]",
+  "license": "<license-type>",
   "catalog_info": {
-    "summary": "[Summary of the Extension]",
+    "summary": "<Summary of the Extension>",
     "status": "draft",
-    "authors": [
-      "[your-name]",
-    ]
+    "authors": ["<your-name>"]
   },
-  "industries": [
-    "[industry]"
-  ]
+  "industries": ["<industry>"]
 }
 ```
 
@@ -83,14 +76,14 @@ From the parent directory of the repository, run
 
 ```sh
 git add .
-git commit -m "feat: add [extension-id] extension"
-git push origin [your-name]
+git commit -m "feat: add <extension-id> extension"
+git push origin <your-name>
 ```
 
 ### 7. Open a Pull Request
 
 Go to [the pact-catalog branches page]https://github.com/sine-fdn/pact-catalog/branches and open a Pull Request for your branch, adding any further information you might find relevant.
 
-<strong>Please note:</strong> All values between square brackets (`[ ]`) should be replaced by actual values. Please make sure that the values replacing `[your-name]`, `[extension-id]`, and `[extension-version]` remain consistent and that no whitespaces or special characters are used)
+<strong>Please note:</strong> All values between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<extension-id>`, and `<extension-version>` remain consistent and that no whitespaces or special characters are used.
 
 Your Pull Request will be reviewed and added to the PACT Online Catalog as soon as possible.
