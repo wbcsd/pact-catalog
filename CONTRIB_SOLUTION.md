@@ -84,7 +84,7 @@ Open the `json` file created in step 5. and fill it adapting the following struc
 If your solution was tested for specific extensions, please add also the field `"tests"`, based on the following structure:
 
 ```json
-  "tests": [
+  "extensions_tested": [
     {
       "extension": "<extension-id>",
       "version": "<extension-version>"
