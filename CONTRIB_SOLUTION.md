@@ -77,7 +77,8 @@ Open the `json` file created in step 5. and fill it adapting the following struc
   "system_under_test": "<your-solution-id>",
   "system_tester": "<tester-solution-id>",
   "test_result": "PACT conformant",
-  "test_date": "<date>"
+  "test_date": "<date>",
+  "pathfinder_version": "2.0.0"
 }
 ```
 

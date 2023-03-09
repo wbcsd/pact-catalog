@@ -3,6 +3,7 @@
   "system_tester": "some-solution",
   "test_result": "PACT conformant",
   "test_date": "2022-01-11T08:12:23Z",
+  "pathfinder_version": "2.0.0",
   "tests": [
     {
       "extension": "@rmi/steel-guidance",
