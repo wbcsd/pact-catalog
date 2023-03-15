@@ -75,22 +75,16 @@ There is no limit to the number of extensions and industries.
 From the parent directory of your local repository run
 
 ```sh
-touch catalog/conformance-tests/result-<your-solution-id>.json
+touch catalog/conformance-tests/result-<your-solution-id>-001.json
 ```
+
+(Note: if this is not the first conformance test you are submitting, please replace `001` with the adequate number.)
 
 ### 6. Fill in the conformance test details
 
 Open the `json` file created in step 5. and fill it adapting the following structure:
 
 ```json
-{
-  "system_under_test": "<your-solution-id>",
-  "system_tester": "<tester-solution-id>",
-  "test_result": "PACT conformant",
-  "test_date": "<date>",
-  "pathfinder_version": "2.0.0"
-}
-
 {
   "tested_solution": {
     "solution_id": "<your-solution-id>",
@@ -105,7 +99,6 @@ Open the `json` file created in step 5. and fill it adapting the following struc
   "test_date": "<date>",
   "pathfinder_version": "2.0.0"
 }
-
 ```
 
 If your solution was tested for specific extensions, please add also the field `"tests"`, based on the following structure:
@@ -118,6 +111,8 @@ If your solution was tested for specific extensions, please add also the field `
     }
   ]
 ```
+
+Please refer to [this example](./catalog/conformance-tests/result-001.json) to see how your conformance test `json` should look like.
 
 ### 7. Commit and push your branch
 
