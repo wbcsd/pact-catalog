@@ -101,7 +101,7 @@ Open the `json` file created in step 5. and fill it adapting the following struc
 }
 ```
 
-Note: the `"solution_id"` property of the `"tested_by"` attribute is optional, but highly recommended. All other fields are mandatory
+Note: the `"solution_id"` property of the `"tested_by"` attribute is optional, but highly recommended. All other fields are mandatory.
 
 If your solution was tested for specific extensions, please add also the field `"tests"`, based on the following structure:
 
@@ -114,7 +114,7 @@ If your solution was tested for specific extensions, please add also the field `
   ]
 ```
 
-Please refer to [this example](./catalog/conformance-tests/result-001.json) to see how your conformance test `json` should look like.
+Please refer to [this example](./catalog/conformance-tests/result-001.json){:target="\_blank"} to see how your conformance test `json` should look like.
 
 ### 7. Commit and push your branch
 
