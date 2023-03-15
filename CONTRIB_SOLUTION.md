@@ -93,13 +93,15 @@ Open the `json` file created in step 5. and fill it adapting the following struc
   "tested_by": {
     "solution_name": "<solution-name>",
     "version": "<solution-version>",
-    "solution_id": "<solution-id>" // This field is optional but highly recommended
+    "solution_id": "<solution-id>"
   },
   "test_result": "PACT conformant",
   "test_date": "<date>",
   "pathfinder_version": "2.0.0"
 }
 ```
+
+Note: the `"solution_id"` property of the `"tested_by"` attribute is optional, but highly recommended. All other fields are mandatory
 
 If your solution was tested for specific extensions, please add also the field `"tests"`, based on the following structure:
 
