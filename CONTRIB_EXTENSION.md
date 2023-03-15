@@ -2,13 +2,23 @@
 
 To contribute an Industry Specific Extension, please follow these steps:
 
-### 1. Clone the `pact-catalog` repository to your local machine
+### 1. Fork the `pact-catalog` repository and clone it into your local machine
 
-Open a terminal window and run
+If you have GitHub CLI tools installed, open a terminal window and run
 
 ```sh
-git clone git@github.com:sine-fdn/pact-catalog.git
+gh repo fork https://github.com/sine-fdn/pact-catalog.git --clone
 ```
+
+Otherwise, navigate to the [pact-catalog repository](https://github.com/sine-fdn/pact-catalog.git) and fork it in your browser (instructions can be found [here](https://github.com/sine-fdn/pact-catalog.git)).
+
+Then, open a terminal window and run
+
+```sh
+git clone git@github.com:<your-github-id>/pact-catalog.git
+```
+
+(Note: this assumes you have not changed the name of the repository when you forked it.)
 
 ### 2. Checkout a new branch with your institution's name
 
@@ -18,7 +28,7 @@ Run
 git checkout -b <your-name>
 ```
 
-### 3. Create a new folder in the `data-mode-extensions` directory
+### 3. Create a new folder in the `data-model-extensions` directory
 
 From the parent directory of your local repository run
 
@@ -82,8 +92,9 @@ git push origin <your-name>
 
 ### 7. Open a Pull Request
 
-Go to [the pact-catalog branches page]https://github.com/sine-fdn/pact-catalog/branches and open a Pull Request for your branch, adding any further information you might find relevant.
+Go to your forked repository, click on the `Pull requests` tab and then on the `New pull request` button. At the top, make sure the Pull Request is trying to merge `<your-name>` branch of your the `<your-github-id>/pact-catalog` repository into the `main` branch of the `sine-fdn/pact-catalog` repository. Click on the `Create pull request` button and add any information you might find relevant.
 
-<strong>Please note:</strong> All values between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<extension-id>`, and `<extension-version>` remain consistent and that no whitespaces or special characters are used.
+
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<extension-id>`, and `<extension-version>` remain consistent and that no whitespaces or special characters are used.
 
 Your Pull Request will be reviewed and added to the PACT Online Catalog as soon as possible.
