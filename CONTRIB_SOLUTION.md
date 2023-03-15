@@ -135,7 +135,14 @@ git push origin <your-name>
 
 ### 9. Open a Pull Request
 
-Navigate to your forked repository on GitHub, click on the `Pull requests` tab and then on the `New pull request` button. At the top, make sure the Pull Request is trying to merge the branch `<your-name>` of the `<your-github-id>/pact-catalog` repository into the branch `main` of the `sine-fdn/pact-catalog` repository. Click on the `Create pull request` button and add any information you might find relevant.
+Go to the original [pact-catalog repository](https://github.com/sine-fdn/pact-catalog), choose the `Pull requests` tab and click the `New pull request` button. 
+
+<p float="left">
+  <img width="328" alt="Screenshot" src="https://user-images.githubusercontent.com/100690574/225391110-8576e863-771a-4c88-908c-2bcbfd6e239b.png">
+  <img width="328" alt="Screenshot" src="https://user-images.githubusercontent.com/100690574/225391189-b319cd7b-a27d-4126-9603-550f48c67795.png">
+</p>
+
+Follow [these instructions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to then open a Pull request accross forks.
 
 <strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<your-solution-id>` and `<your-solution-version>`. None should contain whitespaces and `<your-solution-version>` should follow the `X.Y.Z` format.
 
