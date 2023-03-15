@@ -10,7 +10,7 @@ If you have GitHub CLI tools installed, open a terminal window and run
 gh repo fork https://github.com/sine-fdn/pact-catalog.git --clone
 ```
 
-Otherwise, navigate to the [pact-catalog repository](https://github.com/sine-fdn/pact-catalog.git) and fork it in your browser (instructions can be found [here](https://github.com/sine-fdn/pact-catalog.git)).
+Otherwise, navigate to the [pact-catalog repository](https://github.com/sine-fdn/pact-catalog.git) and fork it in your browser (instructions can be found [here]([https://github.com/sine-fdn/pact-catalog.git](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository))).
 
 Then, open a terminal window and run
 
