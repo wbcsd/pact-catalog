@@ -44,7 +44,7 @@ touch catalog/solutions/<your-solution-id>/<your-solution-version>/solution.json
 
 ### 5. Fill in your solution's details
 
-Open the `json` file created in step 4. and fill it adapting the following structure:
+Open the `json` file created in step 4. and fill it by adapting the following structure:
 
 ```json
 {
@@ -73,7 +73,7 @@ If your solution was conceived to be used in specific industries — and especia
   "industries": ["<industry>"],
 ```
 
-Please refer to [this example](./catalog/solutions/steel-industry-solution/1.0.0.json) to see how your `solution.json` file should look like.
+Please refer to [this example](./catalog/solutions/steel-industry-solution/1.0.0/solution.json) to see how your `solution.json` file should look like.
 
 ### 6. Create a new `json` file in the `conformance-tests` directory
 
@@ -135,8 +135,8 @@ git push origin <your-name>
 
 ### 9. Open a Pull Request
 
-Go to your forked repository, click on the `Pull requests` tab and then on the `New pull request` button. At the top, make sure the Pull Request is trying to merge `<your-name>` branch of your the `<your-github-id>/pact-catalog` repository into the `main` branch of the `sine-fdn/pact-catalog` repository. Click on the `Create pull request` button and add any information you might find relevant.
+Navigate to your forked repository on GitHub, click on the `Pull requests` tab and then on the `New pull request` button. At the top, make sure the Pull Request is trying to merge the branch `<your-name>` of the `<your-github-id>/pact-catalog` repository into the branch `main` of the `sine-fdn/pact-catalog` repository. Click on the `Create pull request` button and add any information you might find relevant.
 
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>` and `<your-solution-id>` remain consistent and that no whitespaces or special characters are used.
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<your-solution-id>` and `<your-solution-version>`. None should contain whitespaces and `<your-solution-version>` should follow the `X.Y.Z` format.
 
-Your Pull Request will be reviewed and added to the PACT Online Catalog as soon as possible.
+Your Pull Request will be reviewed and your solution added to the PACT Online Catalog as soon as possible.
