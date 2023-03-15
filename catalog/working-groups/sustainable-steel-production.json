@@ -12,7 +12,8 @@
     ],
     "solutions": [
       {
-        "id": "steel-industry-solution"
+        "id": "steel-industry-solution",
+        "version": "1.0.0"
       }
     ]
   },
