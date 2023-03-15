@@ -1,6 +1,7 @@
 {
   "id": "some-solution",
   "name": "Some solution",
+  "version": "0.0.0",
   "website": "https://www.some-solutionprovider.com/solution",
   "provider": "some-solutionprovider",
   "extensions": [

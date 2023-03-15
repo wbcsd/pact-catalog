@@ -1,6 +1,7 @@
 {
   "id": "steel-industry-solution",
   "name": "PACT Conforming Solution",
+  "version": "1.0.0",
   "website": "https://www.sustainable-steel-software.com/steel-industry-solution",
   "provider": "sustainable-steel-software",
   "extensions": [
