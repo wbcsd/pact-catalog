@@ -18,8 +18,6 @@ Then, open a terminal window and run
 git clone git@github.com:<your-github-id>/pact-catalog.git
 ```
 
-(Note: this assumes you have not changed the name of the repository when you forked it.)
-
 ### 2. Checkout a new branch with your institution's name
 
 Run
