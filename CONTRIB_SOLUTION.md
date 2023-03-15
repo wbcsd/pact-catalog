@@ -142,7 +142,7 @@ Go to the original [pact-catalog repository](https://github.com/sine-fdn/pact-ca
   <img width="328" alt="Screenshot" src="https://user-images.githubusercontent.com/100690574/225391189-b319cd7b-a27d-4126-9603-550f48c67795.png">
 </p>
 
-Follow [these instructions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to then open a Pull request accross forks.
+Open a Pull Request accross forks by following [these instructions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
 <strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<your-solution-id>` and `<your-solution-version>`. None should contain whitespaces and `<your-solution-version>` should follow the `X.Y.Z` format.
 
