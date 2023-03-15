@@ -1,9 +1,13 @@
 {
-  "system_under_test": {
-    "solutionId": "steel-industry-solution",
+  "tested_solution": {
+    "solution_id": "steel-industry-solution",
     "version": "1.0.0"
   },
-  "system_tester": { "solutionId": "some-solution", "version": "0.0.0" },
+  "tested_by": {
+    "solution_id": "some-solution",
+    "version": "0.0.0",
+    "solution_name": "Some solution"
+  },
   "test_result": "PACT conformant",
   "test_date": "2022-01-11T08:12:23Z",
   "pathfinder_version": "2.0.0",
