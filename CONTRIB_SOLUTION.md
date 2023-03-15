@@ -28,29 +28,38 @@ Run
 git checkout -b <your-name>
 ```
 
-### 3. Create a new `json` file in the `solutions` directory
+### 3. Create a new solution path in the `solutions` directory
 
 From the parent directory of your local repository run
 
 ```sh
-touch catalog/solutions/<your-solution-id>.json
+mkdir -p catalog/solutions/<your-solution-id>/<your-solution-version>
 ```
 
-### 4. Fill in your solution's details
+### 4. Create a new `json` file in your solution's directory
 
-Open the `json` file created in step 3. and fill it adapting the following structure:
+From the parent directory of your local repository run
+
+```sh
+touch catalog/solutions/<your-solution-id>/<your-solution-version>/solution.json
+```
+
+### 5. Fill in your solution's details
+
+Open the `json` file created in step 4. and fill it adapting the following structure:
 
 ```json
 {
   "id": "<your-solution-id>",
-  "name": "<solution-name>",
-  "website": "<solution-website>",
+  "name": "<your-solution-name>",
+  "version": "<your-solution-version>",
+  "website": "<your-solution-website>",
   "provider": "<your-name>",
   "summary": "<summary>"
 }
 ```
 
-(The `"summary"` field is optional but highly recommended.)
+Note: The `"summary"` field is optional but highly recommended.
 
 If your solution supports Industry Specific Extensions, please include also the field `"extensions"`, based on the following structrue:
 
@@ -66,11 +75,11 @@ If your solution was conceived to be used in specific industries — and especia
   "industries": ["<industry>"],
 ```
 
-There is no limit to the number of extensions and industries.
+Please refer to [this example](./catalog/solutions/steel-industry-solution/1.0.0.json) to see how your `solution.json` file should look like.
 
-### 5. Create a new `json` file in the `conformance-tests` directory
+### 6. Create a new `json` file in the `conformance-tests` directory
 
-> **_NOTE:_** If your solution has not yet been tested for conformance, please jump to step `7.`
+> **_NOTE:_** If your solution has not yet been tested for conformance, please jump to step `8.`
 
 From the parent directory of your local repository run
 
@@ -80,7 +89,7 @@ touch catalog/conformance-tests/result-<your-solution-id>-001.json
 
 (Note: if this is not the first conformance test you are submitting, please replace `001` with the adequate number.)
 
-### 6. Fill in the conformance test details
+### 7. Fill in the conformance test details
 
 Open the `json` file created in step 5. and fill it adapting the following structure:
 
@@ -114,22 +123,22 @@ If your solution was tested for specific extensions, please add also the field `
   ]
 ```
 
-Please refer to [this example](./catalog/conformance-tests/result-001.json){:target="\_blank"} to see how your conformance test `json` should look like.
+Please refer to [this example](./catalog/conformance-tests/result-001.json) to see how your conformance test `json` should look like.
 
-### 7. Commit and push your branch
+### 8. Commit and push your branch
 
 From the parent directory of the repository, run
 
 ```sh
 git add .
-git commit -m "feat: add <solution-id> solution"
+git commit -m "feat: add <your-solution-id> solution"
 git push origin <your-name>
 ```
 
-### 8. Open a Pull Request
+### 9. Open a Pull Request
 
 Go to your forked repository, click on the `Pull requests` tab and then on the `New pull request` button. At the top, make sure the Pull Request is trying to merge `<your-name>` branch of your the `<your-github-id>/pact-catalog` repository into the `main` branch of the `sine-fdn/pact-catalog` repository. Click on the `Create pull request` button and add any information you might find relevant.
 
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>` and `<solution-id>` remain consistent and that no whitespaces or special characters are used.
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>` and `<your-solution-id>` remain consistent and that no whitespaces or special characters are used.
 
 Your Pull Request will be reviewed and added to the PACT Online Catalog as soon as possible.
