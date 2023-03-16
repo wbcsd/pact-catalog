@@ -55,7 +55,9 @@ mkdir documentation
 touch README.md
 ```
 
-### 5. Fill in your extension's details in the `package.json` file
+### 5. Fill in your extension's details
+
+#### 5.1 `package.json`
 
 Open the `package.json` file created in step 4. and fill it adapting the following structure:
 
@@ -70,7 +72,7 @@ Open the `package.json` file created in step 4. and fill it adapting the followi
     "email": "<email>",
     "url": "<website>"
   },
-  "license": "<license-type>",
+  "license": "<license>",
   "catalog_info": {
     "summary": "<Summary of the Extension>",
     "status": "draft",
@@ -79,6 +81,19 @@ Open the `package.json` file created in step 4. and fill it adapting the followi
   "industries": ["<industry>"]
 }
 ```
+
+Note: the value of `"license"` field must be either `"MIT"` or `"CC0"`. 
+
+#### 5.2 `schema.json`
+
+Open the `schema.json` file created in step 4. and fill it with your extension. This must be a valid [JSON schema](https://json-schema.org) based on [the Pathfinder Technical Specification V2](https://pact-catalog-frontend.vercel.app/schemas/@wbcsd-product-footprint-2.0.0.schema.json)
+
+#### 5.3 `LICENSE`
+
+Open the `LICENSE` file created in step 4. and fill it according to your license choice, which must be either `MIT` or `CC0`.
+
+You can use [this template](https://github.com/sine-fdn/pact-catalog-frontend/blob/main/frontend/utils/MIT.txt) for the `MIT` license and copy [this text](https://github.com/sine-fdn/pact-catalog-frontend/blob/main/frontend/utils/CC0.txt) for the `CC0` license. 
+
 
 ### 6. Commit and push your branch
 
