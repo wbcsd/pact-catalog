@@ -28,7 +28,7 @@ Run
 git checkout -b <your-name>
 ```
 
-### 3. Create a new folder in the `data-model-extensions` directory
+### 3. Create a new extension path in the `data-model-extensions` directory
 
 From the parent directory of your local repository run
 
