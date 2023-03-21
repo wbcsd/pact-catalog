@@ -54,7 +54,7 @@ Please refer to [this example](./catalog/conformance-tests/result-001.json) to s
 
 ### 3. Commit your branch, push it, and open a Pull Request
 
-Please continue from [step 4 of the main instructions](/README.md#4)
+Please continue from [step 4 of the main instructions](/README.md#4-commit-and-push-your-branch).
 
 <strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<your-solution-id>`, `<your-solution-version>`, and `<test-number>` remain consistent. None should contain whitespaces and `<your-solution-version>` should follow the `X.Y.Z` format.
 
