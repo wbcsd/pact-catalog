@@ -77,9 +77,9 @@ Please refer to [this example](./catalog/solutions/steel-industry-solution/1.0.0
 
 ### 6. Contribute a Conformance Test Result
 
-> **_NOTE:_** If your solution has not yet been tested for conformance, please skip thi step.
+> **_NOTE:_** If your solution has not yet been tested for conformance, please skip this step.
 
-If have already tested your solution for conformance with the Pathfinder Framework, please contribute a <strong>Conformance Test Result</strong> by following [these instructions](./CONTRIB_TEST.md)
+If have already tested your solution for conformance with the Pathfinder Framework, please contribute a <strong>Conformance Test Result</strong> by following [these instructions](./CONTRIB_TEST.md).
 
 ### 7. Commit and push your branch
 
