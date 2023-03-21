@@ -82,7 +82,7 @@ Open the `package.json` file created in step 4. and fill it adapting the followi
 }
 ```
 
-Note: the value of `"license"` field must be either `"MIT"` or `"CC0"`. 
+Note: the value of `"license"` field must be either `"MIT"` or `"CC0"`.
 
 #### 5.2 `schema.json`
 
@@ -92,7 +92,7 @@ Open the `schema.json` file created in step 4. and fill it with your extension. 
 
 Open the `LICENSE` file created in step 4. and fill it according to your license choice, which must be either `MIT` or `CC0`.
 
-You can use [this template](https://github.com/sine-fdn/pact-catalog-frontend/blob/main/frontend/utils/MIT.txt) for the `MIT` license and copy [this text](https://github.com/sine-fdn/pact-catalog-frontend/blob/main/frontend/utils/CC0.txt) for the `CC0` license. 
+You can use [this template](https://github.com/sine-fdn/pact-catalog-frontend/blob/main/frontend/utils/MIT.txt) for the `MIT` license and copy [this text](https://github.com/sine-fdn/pact-catalog-frontend/blob/main/frontend/utils/CC0.txt) for the `CC0` license.
 
 
 ### 6. Commit and push your branch
