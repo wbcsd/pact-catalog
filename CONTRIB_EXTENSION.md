@@ -2,33 +2,9 @@
 
 To contribute an Industry Specific Extension, please follow these steps:
 
-### 1. Fork the `pact-catalog` repository and clone it into your local machine
+> **_NOTE:_** The following steps pressupose that you have already forked and cloned the `pact-catalog` repository. If that is not the case, please go back to the [main instructions](/README.md) and follow them in order.
 
-If you have GitHub CLI tools installed, open a terminal window and run
-
-```sh
-gh repo fork https://github.com/sine-fdn/pact-catalog.git --clone
-```
-
-Otherwise, navigate to the [pact-catalog repository](https://github.com/sine-fdn/pact-catalog.git) and fork it in your browser (instructions can be found [here](https://github.com/sine-fdn/pact-catalog.git)).
-
-Then, open a terminal window and run
-
-```sh
-git clone git@github.com:<your-github-id>/pact-catalog.git
-```
-
-(Note: this assumes you have not changed the name of the repository when you forked it.)
-
-### 2. Checkout a new branch with your institution's name
-
-Run
-
-```sh
-git checkout -b <your-name>
-```
-
-### 3. Create a new extension path in the `data-model-extensions` directory
+### 1. Create a new extension path in the `data-model-extensions` directory
 
 From the parent directory of your local repository run
 
@@ -36,7 +12,7 @@ From the parent directory of your local repository run
 mkdir -p catalog/data-model-extensions/@<your-name>/<extension-id>/<extension-version>
 ```
 
-### 4. Populate your extension's directory with the necessary files
+### 2. Populate your extension's directory with the necessary files
 
 From the parent directory of your local repository run
 
@@ -55,9 +31,9 @@ mkdir documentation
 touch README.md
 ```
 
-### 5. Fill in your extension's details
+### 3. Fill in your extension's details
 
-#### 5.1 `package.json`
+#### 3.1 `package.json`
 
 Open the `package.json` file created in step 4. and fill it adapting the following structure:
 
@@ -82,33 +58,22 @@ Open the `package.json` file created in step 4. and fill it adapting the followi
 }
 ```
 
-Note: the value of `"license"` field must be either `"MIT"` or `"CC0"`. 
+Note: the value of `"license"` field must be either `"MIT"` or `"CC0"`.
 
-#### 5.2 `schema.json`
+#### 3.2 `schema.json`
 
 Open the `schema.json` file created in step 4. and fill it with your extension. This must be a valid [JSON schema](https://json-schema.org) based on [the Pathfinder Technical Specification V2](https://pact-catalog-frontend.vercel.app/schemas/@wbcsd-product-footprint-2.0.0.schema.json)
 
-#### 5.3 `LICENSE`
+#### 3.3 `LICENSE`
 
 Open the `LICENSE` file created in step 4. and fill it according to your license choice, which must be either `MIT` or `CC0`.
 
-You can use [this template](https://github.com/sine-fdn/pact-catalog-frontend/blob/main/frontend/utils/MIT.txt) for the `MIT` license and copy [this text](https://github.com/sine-fdn/pact-catalog-frontend/blob/main/frontend/utils/CC0.txt) for the `CC0` license. 
+You can use [this template](https://github.com/sine-fdn/pact-catalog-frontend/blob/main/frontend/utils/MIT.txt) for the `MIT` license and copy [this text](https://github.com/sine-fdn/pact-catalog-frontend/blob/main/frontend/utils/CC0.txt) for the `CC0` license.
 
 
-### 6. Commit and push your branch
+### 4. Commit your branch, push it, and open a Pull Request
 
-From the parent directory of the repository, run
-
-```sh
-git add .
-git commit -m "feat: add <extension-id> extension"
-git push origin <your-name>
-```
-
-### 7. Open a Pull Request
-
-Go to your forked repository, click on the `Pull requests` tab and then on the `New pull request` button. At the top, make sure the Pull Request is trying to merge `<your-name>` branch of your the `<your-github-id>/pact-catalog` repository into the `main` branch of the `sine-fdn/pact-catalog` repository. Click on the `Create pull request` button and add any information you might find relevant.
-
+Please continue from [step 4 of the main instructions](/README.md#4-commit-and-push-your-branch).
 
 <strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<extension-id>`, and `<extension-version>` remain consistent and that no whitespaces or special characters are used.
 
