@@ -5,19 +5,10 @@
   "email": "info@some-solutionprovider.com",
   "website": "https://www.some-solutionprovider.com",
   "logo": "",
-  "extensions_support": [
-    {
-      "id": "@rmi/steel-guidance",
-      "version": "1.1.0"
-    },
-    {
-      "id": "@wwf/water-footprint",
-      "version": "0.6.1"
-    }
-  ],
   "extensions_endorsed": [
     {
-      "id": "@rmi/steel-guidance",
+      "namespace": "@rmi",
+      "extension_name": "steel-guidance",
       "version": "1.1.0"
     }
   ]

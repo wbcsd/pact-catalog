@@ -5,15 +5,10 @@
   "email": "info@sustainable-steel-software.com",
   "website": "https://pact-catalog.sine.dev/logos/sustainable-steel-logo.svg",
   "logo": "https://pact-catalog.sine.dev/logos/sustainable-steel-logo.svg",
-  "extensions_support": [
-    {
-      "id": "@rmi/steel-guidance",
-      "version": "1.1.0"
-    }
-  ],
   "extensions_endorsed": [
     {
-      "id": "@rmi/steel-guidance",
+      "namespace": "@rmi",
+      "extension_name": "steel-guidance",
       "version": "1.1.0"
     }
   ]
