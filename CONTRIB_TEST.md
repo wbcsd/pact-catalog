@@ -44,7 +44,8 @@ If your solution was tested for specific extensions, please add also the field `
 ```json
   "extensions_tested": [
     {
-      "extension": "<extension-id>",
+      "namespace": "@<your-name>",
+      "extension_name": "<extension-id>",
       "version": "<extension-version>"
     }
   ]

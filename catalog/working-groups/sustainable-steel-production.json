@@ -6,7 +6,8 @@
   "work_in_progress": {
     "extensions": [
       {
-        "id": "@rmi/steel-guidance",
+        "namespace": "@rmi",
+        "extension_name": "steel-guidance",
         "version": "1.1.0"
       }
     ],
@@ -20,7 +21,8 @@
   "completed_work": {
     "extensions": [
       {
-        "id": "@rmi/steel-guidance",
+        "namespace": "@rmi",
+        "extension_name": "steel-guidance",
         "version": "1.0.0"
       }
     ]

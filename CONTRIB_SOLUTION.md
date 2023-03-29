@@ -41,7 +41,9 @@ If your solution supports Industry Specific Extensions, please include also the 
 
 ```json
   "extensions": [
-    { "id": "<extension-id>", "version": "<extension-version>" },
+    { "namespace": "@<your-name>",
+    "extension_name": "<extension-id>",
+    "version": "<extension-version>" },
   ],
 ```
 

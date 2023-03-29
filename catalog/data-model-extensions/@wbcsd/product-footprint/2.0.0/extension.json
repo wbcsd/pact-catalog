@@ -1,10 +1,11 @@
 {
-  "name": "@wbcsd/product-footprint",
-  "version": "2.0.0",
-  "description": "WBCSD Product footprint",
-  "files": [
-    "schema.json"
-  ],
+  "id": {
+    "namespace": "@wbcsd",
+    "extension_name": "product-footprint",
+    "version": "2.0.0"
+  },
+  "name": "WBCSD Product footprint",
+  "files": ["schema.json"],
   "author": {
     "name": "World Business Council for Sustainable Development",
     "email": "info@wbcsd.org",
@@ -24,15 +25,7 @@
   "catalog_info": {
     "summary": "This is the WBCSD Product Footprint Extension.",
     "status": "published",
-    "authors": [
-      "wbcsd",
-      "acme-steel-manufacturer"
-    ]
+    "authors": ["wbcsd", "acme-steel-manufacturer"]
   },
-  "industries": [
-    "steel",
-    "automotive",
-    "chemical",
-    "logistics"
-  ]
+  "industries": ["steel", "automotive", "chemical", "logistics"]
 }

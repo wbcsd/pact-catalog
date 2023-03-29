@@ -1,10 +1,11 @@
 {
-  "name": "@rmi/steel-guidance",
-  "version": "1.1.0",
-  "description": "RMI Steel Guidance",
-  "files": [
-    "schema.json"
-  ],
+  "id": {
+    "namespace": "@rmi",
+    "extension_name": "steel-guidance",
+    "version": "1.1.0"
+  },
+  "name": "RMI Steel Guidance",
+  "files": ["schema.json"],
   "author": {
     "name": "Rocky Mountain Institute",
     "email": "info@rmi.org",
@@ -24,11 +25,7 @@
   "catalog_info": {
     "summary": "This is the Steel Guidance Data Model Extension. It discloses process-related emission factors in a steel manufacturing process.",
     "status": "published",
-    "authors": [
-      "rmi",
-      "acme-steel-manufacturer"
-    ]
+    "authors": ["rmi", "acme-steel-manufacturer"]
   },
-  "industries": [
-    "steel"
-  ]}
+  "industries": ["steel"]
+}
