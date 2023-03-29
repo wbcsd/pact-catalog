@@ -1,10 +1,11 @@
 {
-  "name": "@wwf/water-footprint",
-  "version": "0.6.1",
-  "description": "WWF water footprint data model extension",
-  "files": [
-    "schema.json"
-  ],
+  "id": {
+    "namespace": "@wwf",
+    "extension_name": "water-footprint",
+    "version": "0.6.1"
+  },
+  "name": "WWF water footprint data model extension",
+  "files": ["schema.json"],
   "author": {
     "name": "World Wide Fund for Nature",
     "email": "info@wwf.int",
@@ -16,11 +17,7 @@
   "license": "MIT",
   "catalog_info": {
     "status": "draft",
-    "authors": [
-      "wwf"
-    ]
+    "authors": ["wwf"]
   },
-  "industries": [
-    "chemical"
-  ]
+  "industries": ["chemical"]
 }
