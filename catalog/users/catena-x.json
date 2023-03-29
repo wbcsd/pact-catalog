@@ -7,7 +7,8 @@
   "logo": "https://pact-catalog.sine.dev/logos/catena-x-logo.png",
   "extensions_endorsed": [
     {
-      "id": "@wwf/water-footprint",
+      "namespace": "@wwf",
+      "extension_name": "water-footprint",
       "version": "0.6.1"
     }
   ]

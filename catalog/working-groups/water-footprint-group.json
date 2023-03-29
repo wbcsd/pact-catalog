@@ -5,7 +5,8 @@
   "work_in_progress": {
     "extensions": [
       {
-        "id": "@wwf/water-footprint",
+        "namespace": "@wwf",
+        "extension_name": "water-footprint",
         "version": "0.6.1"
       }
     ],

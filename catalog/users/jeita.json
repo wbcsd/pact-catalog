@@ -7,7 +7,8 @@
   "logo": "https://upload.wikimedia.org/wikipedia/commons/8/89/Logo_Japan_Electronics_and_Information_Technology_Industries_Association_%28JEITA%29.svg",
   "extensions_endorsed": [
     {
-      "id": "@wwf/water-footprint",
+      "namespace": "@wwf",
+      "extension_name": "water-footprint",
       "version": "0.6.1"
     }
   ]

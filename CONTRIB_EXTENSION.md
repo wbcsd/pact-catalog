@@ -18,30 +18,25 @@ From the parent directory of your local repository run
 
 ```sh
 cd catalog/data-model-extensions/@<your-name>/<extension-id>/<extension-version>
-touch index.js && touch LICENSE && touch package.json && touch schema.json
+touch LICENSE && touch extension.json && touch schema.json && touch README.md
 ```
 
-Fill the `schema.json` with your extension (see [the Pathfinder Technical Specification about Data Model Extensions](https://wbcsd.github.io/data-model-extensions/guidance/#catalog-data-attributes) for further details).
-
-It is optional, but highly recommended, that you include also a `README.md` file. If so, please include it in a subdirectory called `documentation`:
-
-```sh
-cd catalog/data-model-extensions/@<your-name>/<extension-id>/<extension-version>
-mkdir documentation
-touch README.md
-```
+The `README.md` file is optional, but highly recommended. It should be filled with information about the extension and instructions on how to use it.
 
 ### 3. Fill in your extension's details
 
-#### 3.1 `package.json`
+#### 3.1 `extension.json`
 
 Open the `package.json` file created in step 4. and fill it adapting the following structure:
 
 ```json
 {
-  "name": "@<your-name>/<extension-id>",
-  "version": "<extension-version>",
-  "description": "<Short Description of the Extension>",
+  "id": {
+    "namespace": "@<your-name>",
+    "extension_name": "<extension-id>",
+    "version": "<extension-version>"
+  },
+  "name": "<Name of the extension>",
   "files": ["schema.json"],
   "author": {
     "name": "<Institution's name>",
@@ -69,7 +64,6 @@ Open the `schema.json` file created in step 4. and fill it with your extension. 
 Open the `LICENSE` file created in step 4. and fill it according to your license choice, which must be either `MIT` or `CC0`.
 
 You can use [this template](https://github.com/sine-fdn/pact-catalog-frontend/blob/main/frontend/utils/MIT.txt) for the `MIT` license and copy [this text](https://github.com/sine-fdn/pact-catalog-frontend/blob/main/frontend/utils/CC0.txt) for the `CC0` license.
-
 
 ### 4. Commit your branch, push it, and open a Pull Request
 
