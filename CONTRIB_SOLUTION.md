@@ -68,3 +68,5 @@ Please continue from [step 4 of the main instructions](/README.md#4-commit-and-p
 <strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<your-solution-id>` and `<your-solution-version>` remain consistent. None should contain whitespaces and `<your-solution-version>` should follow the `X.Y.Z` format.
 
 Your Pull Request will be reviewed and your solution added to the PACT Online Catalog as soon as possible.
+
+> **_NOTE:_** By submitting a Conforming Solution you acknowledge that you have read and accepted the Catalog's [Terms and Conditions](/catalog/legal/TERMSANDCONDITIONS.md).
