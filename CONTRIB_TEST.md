@@ -62,3 +62,5 @@ Please continue from [step 4 of the main instructions](/README.md#4-commit-and-p
 Your Pull Request will be reviewed and your conformance test result added to the PACT Online Catalog as soon as possible.
 
 > **_NOTE:_** Conformance test results are shown in the `Conformance` tab of a specific solution's page. If you have not yet added the tested solution to the catalog, then the data about the test results will not be visible. It will, nevertheless, be included in the catalog, and will become visible as soon as the tested solution is also added.
+
+> **_NOTE:_** By submitting a Conformance Test Result you acknowledge that you have read and accepted the Catalog's [Terms and Conditions](/catalog/legal/TERMSANDCONDITIONS.md).

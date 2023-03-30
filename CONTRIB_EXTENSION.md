@@ -72,3 +72,5 @@ Please continue from [step 4 of the main instructions](/README.md#4-commit-and-p
 <strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<extension-id>`, and `<extension-version>` remain consistent and that no whitespaces or special characters are used.
 
 Your Pull Request will be reviewed and added to the PACT Online Catalog as soon as possible.
+
+> **_NOTE:_** By submitting an Industry Specific Extension you acknowledge that you have read and accepted the [Terms and Conditions](/catalog/legal/TERMSANDCONDITIONS.md)
