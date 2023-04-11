@@ -1,0 +1,26 @@
+{
+  "tested_solution": {
+    "solution_id": "steel-industry-solution",
+    "version": "1.0.0"
+  },
+  "tested_by": {
+    "solution_id": "test-solution",
+    "version": "0.2.0",
+    "solution_name": "Test PACT Conforming Solution"
+  },
+  "test_result": "passed",
+  "test_date": "2022-01-11T08:12:23Z",
+  "pathfinder_version": "2.0.0",
+  "extensions_tested": [
+    {
+      "namespace": "@rmi",
+      "extension_name": "steel-guidance",
+      "version": "1.1.0"
+    },
+    {
+      "namespace": "@wbcsd",
+      "extension_name": "product-footprint",
+      "version": "2.0.0"
+    }
+  ]
+}
