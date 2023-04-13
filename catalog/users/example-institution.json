@@ -1,0 +1,8 @@
+{
+  "id": "example-institution",
+  "kind": "ngo",
+  "name": "Example Institution",
+  "email": "exampleinstitution@email.com",
+  "website": "https://exampleinstitution.com",
+  "logo": ""
+}
