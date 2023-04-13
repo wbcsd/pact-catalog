@@ -1,0 +1,15 @@
+{
+  "id": "example-solution-provider",
+  "kind": "solutionprovider",
+  "name": "Example Solution Provider",
+  "email": "pact-catalog@sine.dev",
+  "website": "https://pact-catalog.sine.dev",
+  "logo": "",
+  "extensions_endorsed": [
+    {
+      "namespace": "@example-institution",
+      "extension_name": "example-extension",
+      "version": "0.0.0"
+    }
+  ]
+}

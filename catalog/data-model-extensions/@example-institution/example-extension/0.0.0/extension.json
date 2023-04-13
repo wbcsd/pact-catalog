@@ -1,0 +1,21 @@
+{
+  "id": {
+    "namespace": "@example-institution",
+    "extension_name": "example-extension",
+    "version": "0.0.0"
+  },
+  "name": "Example Extension",
+  "files": ["schema.json"],
+  "author": {
+    "name": "Example Institution",
+    "email": "pact-catalog@sine.dev",
+    "url": "https://pact-catalog.sine.dev"
+  },
+  "license": "MIT",
+  "catalog_info": {
+    "summary": "This is an example of what an Industry Specific Extension looks like when onboarded to the PACT Online Catalog",
+    "status": "draft",
+    "authors": ["example-institution"]
+  },
+  "industries": []
+}
