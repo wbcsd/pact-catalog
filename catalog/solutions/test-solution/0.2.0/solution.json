@@ -1,9 +1,0 @@
-{
-    "id": "test-solution",
-    "version": "0.2.0",
-    "name": "Test PACT Conforming Solution",
-    "website": "https://pact-catalog.sine.dev",
-    "provider": "some-solutionprovider",
-    "summary": "This is a test solution",
-    "industries": ["steel"]
-  }

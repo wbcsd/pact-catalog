@@ -1,0 +1,15 @@
+{
+  "id": "example-solution-provider",
+  "kind": "solutionprovider",
+  "name": "Example Solution Provider",
+  "email": "examplesolutionprovider@email.com",
+  "website": "https://examplesolutionprovider.com",
+  "logo": "",
+  "extensions_endorsed": [
+    {
+      "namespace": "@example-institution",
+      "extension_name": "example-extension",
+      "version": "0.0.0"
+    }
+  ]
+}
