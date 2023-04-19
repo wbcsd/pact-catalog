@@ -2,7 +2,7 @@
 
 To contribute a Conformance Test Result, please follow these steps:
 
-> **_NOTE:_** The following steps pressupose that you have already forked and cloned the `pact-catalog` repository. If that is not the case, please go back to the [main instructions](/README.md) and follow them in order.
+> **_NOTE:_** The following steps presuppose that you have already forked and cloned the `pact-catalog` repository. If that is not the case, please go back to the [main instructions](/README.md) and follow them in order.
 
 ### 1. Create a new `json` file in the `conformance-tests` directory
 

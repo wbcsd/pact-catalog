@@ -1,8 +1,8 @@
 # Contribute an Data Model Extension
 
-To contribute an Data Model Extension, please follow these steps:
+To contribute a Data Model Extension, please follow these steps:
 
-> **_NOTE:_** The following steps pressupose that you have already forked and cloned the `pact-catalog` repository. If that is not the case, please go back to the [main instructions](/README.md) and follow them in order.
+> **_NOTE:_** The following steps presuppose that you have already forked and cloned the `pact-catalog` repository. If that is not the case, please go back to the [main instructions](/README.md) and follow them in order.
 
 ### 1. Create a new extension path in the `data-model-extensions` directory
 
