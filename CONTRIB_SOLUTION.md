@@ -1,6 +1,6 @@
-# Contribute a PACT Conforming Solution
+# Contribute a PACT Conformant Solution
 
-To contribute a PACT Conforming Solution, please follow these steps:
+To contribute a PACT Conformant Solution, please follow these steps:
 
 > **_NOTE:_** The following steps pressupose that you have already forked and cloned the `pact-catalog` repository. If that is not the case, please go back to the [main instructions](/README.md) and follow them in order.
 
@@ -69,4 +69,4 @@ Please continue from [step 4 of the main instructions](/README.md#4-commit-and-p
 
 Your Pull Request will be reviewed and your solution added to the PACT Online Catalog as soon as possible.
 
-> **_NOTE:_** By submitting a Conforming Solution you acknowledge that you have read and accepted the Catalog's [Terms and Conditions](/catalog/legal/TERMSANDCONDITIONS.md).
+> **_NOTE:_** By submitting a Conformant Solution you acknowledge that you have read and accepted the Catalog's [Terms and Conditions](/catalog/legal/TERMSANDCONDITIONS.md).

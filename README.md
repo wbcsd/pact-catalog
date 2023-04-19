@@ -4,7 +4,7 @@ This repository holds the [PACT Online Catalog](https://pact-catalog.sine.dev).
 
 ## Contribute
 
-To contribute to the PACT Online Catalog with an <strong>Data Model Extension</strong>, a <strong>Conforming Solution</strong>, or a <strong>Conformance Test Result</strong>, please follow these steps:
+To contribute to the PACT Online Catalog with an <strong>Data Model Extension</strong>, a <strong>Conformant Solution</strong>, or a <strong>Conformance Test Result</strong>, please follow these steps:
 
 ### 1. Fork the `pact-catalog` repository and clone it into your local machine
 
@@ -34,7 +34,7 @@ git checkout -b <your-name>
 
 If you want to contribute an <strong>Data Model Extension</strong>, please follow [these steps](/CONTRIB_EXTENSION.md).
 
-If you want to contribute a <strong>Conforming Solution</strong>, please follow [these steps](/CONTRIB_SOLUTION.md).
+If you want to contribute a <strong>Conformant Solution</strong>, please follow [these steps](/CONTRIB_SOLUTION.md).
 
 If you want to contribute a <strong>Conformance Test Result</strong>, please follow [these steps](/CONTRIB_TEST.md).
 
