@@ -1,6 +1,6 @@
-# Contribute an Industry Specific Extension
+# Contribute an Data Model Extension
 
-To contribute an Industry Specific Extension, please follow these steps:
+To contribute an Data Model Extension, please follow these steps:
 
 > **_NOTE:_** The following steps pressupose that you have already forked and cloned the `pact-catalog` repository. If that is not the case, please go back to the [main instructions](/README.md) and follow them in order.
 
@@ -75,4 +75,4 @@ Please continue from [step 4 of the main instructions](/README.md#4-commit-and-p
 
 Your Pull Request will be reviewed and added to the PACT Online Catalog as soon as possible.
 
-> **_NOTE:_** By submitting an Industry Specific Extension you acknowledge that you have read and accepted the [Terms and Conditions](/catalog/legal/TERMSANDCONDITIONS.md)
+> **_NOTE:_** By submitting an Data Model Extension you acknowledge that you have read and accepted the [Terms and Conditions](/catalog/legal/TERMSANDCONDITIONS.md)

@@ -37,7 +37,7 @@ Open the `json` file created in step 4. and fill it by adapting the following st
 
 Note: The `"summary"` field is optional but highly recommended.
 
-If your solution supports Industry Specific Extensions, please include also the field `"extensions"`, based on the following structrue:
+If your solution supports Data Model Extensions, please include also the field `"extensions"`, based on the following structrue:
 
 ```json
   "extensions": [
@@ -47,7 +47,7 @@ If your solution supports Industry Specific Extensions, please include also the 
   ],
 ```
 
-If your solution was conceived to be used in specific industries — and especially if it supports Industry Specific Extensions — please include the field `"industries"`, based on the following structure:
+If your solution was conceived to be used in specific industries — and especially if it supports Data Model Extensions — please include the field `"industries"`, based on the following structure:
 
 ```json
   "industries": ["<industry>"],

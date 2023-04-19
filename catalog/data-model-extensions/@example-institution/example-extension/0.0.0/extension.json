@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "catalog_info": {
-    "summary": "This is an example of what an Industry Specific Extension looks like when onboarded to the PACT Online Catalog",
+    "summary": "This is an example of what an Data Model Extension looks like when onboarded to the PACT Online Catalog",
     "status": "draft",
     "authors": ["example-institution"]
   },
