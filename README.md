@@ -57,7 +57,7 @@ Please replace `<commit-message>` with a short description, such as `add <extens
 Go to the original [pact-catalog repository](https://github.com/sine-fdn/pact-catalog), choose the `Pull requests` tab and click the `New pull request` button.
 Open a Pull Request to merge the branch `<your-name>` from your forked repository into the `main` branch of the `pact-catalog` repository. Instructions on how to open Pull Requests across forks can be found [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<extenion-id>`, `<extension-version>`,`<your-solution-id>`, and `<your-solution-version>` remain consistent. None should contain whitespaces and `<your-solution-version>` should follow the `X.Y.Z` format.
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<extenion-id>`, `<extension-version>`,`<your-solution-id>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The values replacing `<extension-version>` and `<your-solution-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
 
 Your Pull Request will be reviewed and your solution added to the PACT Online Catalog as soon as possible.
 
