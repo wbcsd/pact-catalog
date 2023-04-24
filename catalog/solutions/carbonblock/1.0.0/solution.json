@@ -1,0 +1,9 @@
+{
+  "id": "carbonblock",
+  "version": "1.0.0",
+  "name": "CarbonBlock",
+  "website": "https://www.circulartree.com/product",
+  "provider": "circulartree",
+  "summary": "CarbonBlock is the all-in-one solution to determine, calculate, manage, and exchange Product Carbon Footprint data. Identify the product-based greenhouse gas (GHG) emissions from your own manufacturing and automatically calculate your PCF based on secondary emission data for your BOM components. Get an automated hotspot analysis and actionable insights from our dashboard. Request upstream emission data from your supply chain, increasing the primary data share of your PCF and providing guidance to decrease your CO2 emissions. Not ready yet to calculate your Scope 3 emissions? We got you.",
+  "extensions": []
+}
