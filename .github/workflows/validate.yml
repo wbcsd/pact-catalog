@@ -9,5 +9,6 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 18
+    - run: rm -r frontend;  git clone https://github.com/sine-fdn/pact-catalog-frontend.git; mv ./pact-catalog-frontend/frontend ./frontend;  cd frontend;  npm install; cd ..
     - run: npm install typescript ts-node zod ajv
     - run: npx ts-node validate.ts
