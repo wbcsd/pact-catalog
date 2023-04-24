@@ -3,6 +3,5 @@
   "kind": "ngo",
   "name": "Example Institution",
   "email": "pact-catalog@sine.dev",
-  "website": "https://pact-catalog.sine.dev",
-  "logo": ""
+  "website": "https://pact-catalog.sine.dev"
 }
