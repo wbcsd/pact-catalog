@@ -65,7 +65,7 @@ If have already tested your solution for conformance with the Pathfinder Framewo
 
 Please continue from [step 4 of the main instructions](/README.md#4-commit-and-push-your-branch).
 
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<your-solution-id>` and `<your-solution-version>` remain consistent. None should contain whitespaces and `<your-solution-version>` should follow the `X.Y.Z` format.
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<your-solution-id>` and `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
 
 Your Pull Request will be reviewed and your solution added to the PACT Online Catalog as soon as possible.
 

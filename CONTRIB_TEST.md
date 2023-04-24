@@ -2,7 +2,7 @@
 
 To contribute a Conformance Test Result, please follow these steps:
 
-> **_NOTE:_** The following steps pressupose that you have already forked and cloned the `pact-catalog` repository. If that is not the case, please go back to the [main instructions](/README.md) and follow them in order.
+> **_NOTE:_** The following steps presuppose that you have already forked and cloned the `pact-catalog` repository. If that is not the case, please go back to the [main instructions](/README.md) and follow them in order.
 
 ### 1. Create a new `json` file in the `conformance-tests` directory
 
@@ -59,7 +59,7 @@ Please refer to [this example](./catalog/conformance-tests/result-example-soluti
 
 Please continue from [step 4 of the main instructions](/README.md#4-commit-and-push-your-branch).
 
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<your-solution-id>`, `<your-solution-version>`, and `<test-number>` remain consistent. None should contain whitespaces and `<your-solution-version>` should follow the `X.Y.Z` format.
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<your-solution-id>`, `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. The value replacing `<test-number>` should only include three digits from 0 to 9. Please make sure that these remain consistent.
 
 Your Pull Request will be reviewed and your conformance test result added to the PACT Online Catalog as soon as possible.
 

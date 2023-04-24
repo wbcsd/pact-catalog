@@ -2,7 +2,7 @@
 
 To contribute an Data Model Extension, please follow these steps:
 
-> **_NOTE:_** The following steps pressupose that you have already forked and cloned the `pact-catalog` repository. If that is not the case, please go back to the [main instructions](/README.md) and follow them in order.
+> **_NOTE:_** The following steps presuppose that you have already forked and cloned the `pact-catalog` repository. If that is not the case, please go back to the [main instructions](/README.md) and follow them in order.
 
 ### 1. Create a new extension path in the `data-model-extensions` directory
 
@@ -71,8 +71,7 @@ You can use [this template](https://github.com/sine-fdn/pact-catalog-frontend/bl
 
 Please continue from [step 4 of the main instructions](/README.md#4-commit-and-push-your-branch).
 
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<extension-id>`, and `<extension-version>` remain consistent.
-`<your-name>` and `<extension-id>` should only contain lowercase letters, numbers and hyphens.  `<extension-version>` should follow the `X.Y.Z` format.
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<extension-id>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The value replacing `<extension-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
 
 Your Pull Request will be reviewed and added to the PACT Online Catalog as soon as possible.
 
