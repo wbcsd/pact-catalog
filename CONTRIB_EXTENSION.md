@@ -9,7 +9,7 @@ To contribute a Data Model Extension, please follow these steps:
 From the parent directory of your local repository run
 
 ```sh
-mkdir -p catalog/data-model-extensions/@<your-name>/<extension-id>/<extension-version>
+mkdir -p catalog/data-model-extensions/@<your-user-id>/<extension-id>/<extension-version>
 ```
 
 ### 2. Populate your extension's directory with the necessary files
@@ -17,7 +17,7 @@ mkdir -p catalog/data-model-extensions/@<your-name>/<extension-id>/<extension-ve
 From the parent directory of your local repository run
 
 ```sh
-cd catalog/data-model-extensions/@<your-name>/<extension-id>/<extension-version>
+cd catalog/data-model-extensions/@<your-user-id>/<extension-id>/<extension-version>
 touch LICENSE && touch extension.json && touch schema.json && touch README.md
 ```
 
@@ -32,7 +32,7 @@ Open the `extension.json` file created in step 4. and fill it adapting the follo
 ```json
 {
   "id": {
-    "namespace": "@<your-name>",
+    "namespace": "@<your-user-id>",
     "extension_name": "<extension-id>",
     "version": "<extension-version>"
   },
@@ -47,7 +47,7 @@ Open the `extension.json` file created in step 4. and fill it adapting the follo
   "catalog_info": {
     "summary": "<Summary of the Extension>",
     "status": "draft",
-    "authors": ["<your-name>"]
+    "authors": ["<your-user-id>"]
   },
   "industries": ["<industry>"]
 }
@@ -56,6 +56,8 @@ Open the `extension.json` file created in step 4. and fill it adapting the follo
 Note: the value of `"license"` field must be either `"MIT"` or `"CC0"`.
 
 Please refer to [this example](./catalog/data-model-extensions/@example-institution/example-extension/0.0.0/extension.json) to see how your `extension.json` should look like.
+
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<extension-id>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The value replacing `<extension-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
 
 #### 3.2 `schema.json`
 
@@ -71,7 +73,6 @@ You can use [this template](https://github.com/sine-fdn/pact-catalog-frontend/bl
 
 Please continue from [step 4 of the main instructions](/README.md#4-commit-and-push-your-branch).
 
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<extension-id>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The value replacing `<extension-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
 
 Your Pull Request will be reviewed and added to the PACT Online Catalog as soon as possible.
 

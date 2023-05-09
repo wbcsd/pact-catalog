@@ -27,7 +27,7 @@ git clone git@github.com:<your-github-id>/pact-catalog.git
 Run
 
 ```sh
-git checkout -b <your-name>
+git checkout -b <your-user-id>
 ```
 
 ### 3. Follow the contribution-specific tests
@@ -40,24 +40,63 @@ If you want to contribute a <strong>Conformance Test Result</strong>, please fol
 
 Once you have done that, please proceed to the next step.
 
-### 4. Commit and push your branch
+### 4. Create a new user in the `users` directory
+
+> **_NOTE:_** If you have already created a user, do not create a new one. Instead, please make sure the user you have created is in the `users` directory and that all fields are correct. Then, skip to step 6.
+
+From the parent directory of your local repository run
+
+```sh
+touch catalog/users/<your-user-id>.json
+```
+
+### 5. Fill in your user's details
+
+Open the `json` file created in step 4. and fill it by adapting the following structure:
+
+```json
+{
+  "id": "<your-user-id>",
+  "kind": "<solutionprovider | ngo | company>",
+  "name": "<Your Name>",
+  "email": "<your-email>",
+  "website": "<your-website>"
+}
+```
+
+If you already endorse Data Model Extensions, please include also the field `"extensions_endorsed"`, based on the following structure:
+```json
+ "extensions_endorsed": [
+    {
+      "namespace": "@example-institution",
+      "extension_name": "example-extension",
+      "version": "0.0.0"
+    }
+  ]
+```
+
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the value replacing `<your-user-id>` only includes <strong>lowercase letters and dashes</strong> (instead of whitespaces). The value replacing `<solutionprovider | ngo | company>` should be `"solutionprovider"`, `"ngo"`, or `"company"`, depending on your situation.
+
+Please refer to [this example](/catalog/users/example-institution.json) to see how your `<your-user-id>.json` file should look like.
+
+### 6. Commit and push your branch
 
 From the parent directory of the repository, run
 
 ```sh
 git add .
 git commit -m "feat: <commit-message>"
-git push origin <your-name>
+git push origin <your-user-id>
 ```
 
 Please replace `<commit-message>` with a short description, such as `add <extension-id> extension`, `add <your-solution-id> solution`, or `add <tested-solution-id> test result`.
 
-## 5. Open a Pull Request
+### 7. Open a Pull Request
 
 Go to the original [pact-catalog repository](https://github.com/sine-fdn/pact-catalog), choose the `Pull requests` tab and click the `New pull request` button.
-Open a Pull Request to merge the branch `<your-name>` from your forked repository into the `main` branch of the `pact-catalog` repository. Instructions on how to open Pull Requests across forks can be found [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
+Open a Pull Request to merge the branch `<your-user-id>` from your forked repository into the `main` branch of the `pact-catalog` repository. Instructions on how to open Pull Requests across forks can be found [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork).
 
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<extenion-id>`, `<extension-version>`,`<your-solution-id>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The values replacing `<extension-version>` and `<your-solution-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<extenion-id>`, `<extension-version>`,`<your-solution-id>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The values replacing `<extension-version>` and `<your-solution-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
 
 Your Pull Request will be reviewed and your solution added to the PACT Online Catalog as soon as possible.
 

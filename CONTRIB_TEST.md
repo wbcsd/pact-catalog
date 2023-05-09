@@ -46,20 +46,20 @@ If your solution was tested for specific extensions, please add also the field `
 ```json
   "extensions_tested": [
     {
-      "namespace": "@<your-name>",
+      "namespace": "@<user-id>",
       "extension_name": "<extension-id>",
       "version": "<extension-version>"
     }
   ]
 ```
 
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<your-solution-id>`, `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. The value replacing `<test-number>` should only include three digits from 0 to 9. Please make sure that these remain consistent.
+
 Please refer to [this example](./catalog/conformance-tests/result-example-solution-001.json) to see how your conformance test `json` should look like.
 
 ### 3. Commit your branch, push it, and open a Pull Request
 
 Please continue from [step 4 of the main instructions](/README.md#4-commit-and-push-your-branch).
-
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<your-solution-id>`, `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. The value replacing `<test-number>` should only include three digits from 0 to 9. Please make sure that these remain consistent.
 
 Your Pull Request will be reviewed and your conformance test result added to the PACT Online Catalog as soon as possible.
 

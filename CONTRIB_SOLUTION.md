@@ -30,7 +30,7 @@ Open the `json` file created in step 4. and fill it by adapting the following st
   "name": "<your-solution-name>",
   "version": "<your-solution-version>",
   "website": "<your-solution-website>",
-  "provider": "<your-name>",
+  "provider": "<your-user-id>",
   "summary": "<summary>"
 }
 ```
@@ -41,9 +41,11 @@ If your solution supports Data Model Extensions, please include also the field `
 
 ```json
   "extensions": [
-    { "namespace": "@<your-name>",
-    "extension_name": "<extension-id>",
-    "version": "<extension-version>" },
+    {
+      "namespace": "@<user-id>",
+      "extension_name": "<extension-id>",
+      "version": "<extension-version>"
+    },
   ],
 ```
 
@@ -52,6 +54,8 @@ If your solution was conceived to be used in specific industries — and especia
 ```json
   "industries": ["<industry>"],
 ```
+
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<your-solution-id>` and `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
 
 Please refer to [this example](./catalog/solutions/example-solution/0.0.0/solution.json) to see how your `solution.json` file should look like.
 
@@ -64,8 +68,6 @@ If have already tested your solution for conformance with the Pathfinder Framewo
 ### 5. Commit your branch, push it, and open a Pull Request
 
 Please continue from [step 4 of the main instructions](/README.md#4-commit-and-push-your-branch).
-
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<your-solution-id>` and `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
 
 Your Pull Request will be reviewed and your solution added to the PACT Online Catalog as soon as possible.
 
