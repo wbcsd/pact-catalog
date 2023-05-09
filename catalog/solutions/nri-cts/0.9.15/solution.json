@@ -1,0 +1,8 @@
+{
+  "id": "nri-cts",
+  "name": "NRI-CTS",
+  "version": "0.9.15",
+  "website": "https://nri-cts.net",
+  "provider": "Nomura Research Institute, Ltd.",
+  "summary": "CFP calculation and sharing tool with traceability, tampering prevention and renewable energy certificate management for the world."
+}
