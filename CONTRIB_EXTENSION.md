@@ -31,7 +31,7 @@ Open the `extension.json` file created in step 4. and fill it adapting the follo
 
 <strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<extension-id>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<extension-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent. The value replacing `<MIT | CC0>` should be either `"MIT"` or `"CC0"`
 
-```json
+```javascript
 {
   "id": {
     "namespace": "@<your-user-id>", // e.g. 'ABC Institute' has user id "abc-institute" or "abc"

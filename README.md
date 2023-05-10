@@ -46,7 +46,7 @@ Open the `json` file created in step 4. and fill it by adapting the following st
 
 <strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the value replacing `<your-user-id>` only includes <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<solutionprovider | ngo | company>` should be `"solutionprovider"`, `"ngo"`, or `"company"`, depending on your situation.
 
-```json
+```javascript
 {
   "id": "<your-user-id>", // e.g. 'ABC Corp' has user id "abc" or "abc-corp"
   "kind": "<solutionprovider | ngo | company>", // select one
@@ -57,7 +57,7 @@ Open the `json` file created in step 4. and fill it by adapting the following st
 ```
 
 If you already endorse Data Model Extensions, please include also the field `"extensions_endorsed"`, based on the following structure:
-```json
+```javascript
  "extensions_endorsed": [
     {
       "namespace": "@<user-id>", // the id of the user that developed the extension

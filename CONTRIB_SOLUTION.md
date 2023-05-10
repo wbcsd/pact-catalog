@@ -26,7 +26,7 @@ Open the `json` file created in step 4. and fill it by adapting the following st
 
 <strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<your-solution-id>` and `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
 
-```json
+```javascript
 {
   "id": "<your-solution-id>", // e.g. 'Example Solution' has solution id "example-solution"
   "name": "<Your Solution Name>", // e.g. "Example Solution"
@@ -41,7 +41,7 @@ Note: The `"summary"` field is optional but highly recommended.
 
 If your solution supports Data Model Extensions, please include also the field `"extensions"`, based on the following structure:
 
-```json
+```javascript
   "extensions": [
     {
       "namespace": "@<user-id>", // the id of the user that developed the extension
@@ -53,7 +53,7 @@ If your solution supports Data Model Extensions, please include also the field `
 
 If your solution was conceived to be used in specific industries — and especially if it supports Data Model Extensions — please include the field `"industries"`, based on the following structure:
 
-```json
+```javascript
   "industries": ["<industry>"],
 ```
 
