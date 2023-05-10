@@ -1,0 +1,14 @@
+{
+  "tested_solution": {
+    "solution_id": "nri-cts",
+    "version": "0.9.15"
+  },
+  "tested_by": {
+    "solution_name": "zeroboard",
+    "version": "1.0.1",
+    "solution_id": "zeroboard"
+  },
+  "test_result": "passed",
+  "test_date": "2023-05-08T01:50:00Z",
+  "pathfinder_version": "1.0.1"
+}

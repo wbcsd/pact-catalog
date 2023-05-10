@@ -1,0 +1,14 @@
+{
+  "tested_solution": {
+    "solution_id": "nri-cts",
+    "version": "0.9.15"
+  },
+  "tested_by": {
+    "solution_name": "CarbonBlock",
+    "version": "1.0.0",
+    "solution_id": "carbonblock"
+  },
+  "test_result": "passed",
+  "test_date": "2023-05-09T06:37:00Z",
+  "pathfinder_version": "2.0.0"
+}
