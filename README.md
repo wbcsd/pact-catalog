@@ -22,7 +22,7 @@ Then, open a terminal window and run
 git clone git@github.com:<your-github-id>/pact-catalog.git
 ```
 
-### 2. Checkout a new branch with your institution's name
+### 2. Checkout a new branch with your institution's id
 
 Run
 
@@ -30,7 +30,46 @@ Run
 git checkout -b <your-user-id>
 ```
 
-### 3. Follow the contribution-specific tests
+### 3. Create a new user in the `users` directory
+
+> **_NOTE:_** If you have already created a user, do not create a new one. Instead, please make sure the user you have created is in the `users` directory and that all fields are correct. Then, skip to step 5.
+
+From the parent directory of your local repository run
+
+```sh
+touch catalog/users/<your-user-id>.json
+```
+
+### 4. Fill in your user's details
+
+Open the `json` file created in step 4. and fill it by adapting the following structure:
+
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the value replacing `<your-user-id>` only includes <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<solutionprovider | ngo | company>` should be `"solutionprovider"`, `"ngo"`, or `"company"`, depending on your situation.
+
+```javascript
+{
+  "id": "<your-user-id>", // e.g. 'ABC Corp' has user id "abc" or "abc-corp"
+  "kind": "<solutionprovider | ngo | company>", // select one
+  "name": "<Your Name>", // e.g. "ABC Corp"
+  "email": "<your-email>",
+  "website": "<your-website>"
+}
+```
+
+If you already endorse Data Model Extensions, please include also the field `"extensions_endorsed"`, based on the following structure:
+```javascript
+ "extensions_endorsed": [
+    {
+      "namespace": "@<user-id>", // the id of the user that developed the extension
+      "extension_name": "<extension-id>",
+      "version": "<extension-version>"
+    }
+  ]
+```
+
+Please refer to [this example](/catalog/users/example-institution.json) to see how your `<your-user-id>.json` file should look like.
+
+### 5. Follow the contribution-specific tests
 
 If you want to contribute an <strong>Data Model Extension</strong>, please follow [these steps](/CONTRIB_EXTENSION.md).
 
@@ -39,45 +78,6 @@ If you want to contribute a <strong>Conformant Solution</strong>, please follow 
 If you want to contribute a <strong>Conformance Test Result</strong>, please follow [these steps](/CONTRIB_TEST.md).
 
 Once you have done that, please proceed to the next step.
-
-### 4. Create a new user in the `users` directory
-
-> **_NOTE:_** If you have already created a user, do not create a new one. Instead, please make sure the user you have created is in the `users` directory and that all fields are correct. Then, skip to step 6.
-
-From the parent directory of your local repository run
-
-```sh
-touch catalog/users/<your-user-id>.json
-```
-
-### 5. Fill in your user's details
-
-Open the `json` file created in step 4. and fill it by adapting the following structure:
-
-```json
-{
-  "id": "<your-user-id>",
-  "kind": "<solutionprovider | ngo | company>",
-  "name": "<Your Name>",
-  "email": "<your-email>",
-  "website": "<your-website>"
-}
-```
-
-If you already endorse Data Model Extensions, please include also the field `"extensions_endorsed"`, based on the following structure:
-```json
- "extensions_endorsed": [
-    {
-      "namespace": "@example-institution",
-      "extension_name": "example-extension",
-      "version": "0.0.0"
-    }
-  ]
-```
-
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the value replacing `<your-user-id>` only includes <strong>lowercase letters and dashes</strong> (instead of whitespaces). The value replacing `<solutionprovider | ngo | company>` should be `"solutionprovider"`, `"ngo"`, or `"company"`, depending on your situation.
-
-Please refer to [this example](/catalog/users/example-institution.json) to see how your `<your-user-id>.json` file should look like.
 
 ### 6. Commit and push your branch
 

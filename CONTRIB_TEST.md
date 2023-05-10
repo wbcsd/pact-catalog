@@ -18,20 +18,22 @@ The `<test-number>` should follow the `XYZ` format. If this is the first test fo
 
 Open the `json` file created in step 5. and fill it adapting the following structure:
 
-```json
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<your-solution-id>`, `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. The value replacing `<test-number>` should only include three digits from 0 to 9. Please make sure that these remain consistent.
+
+```javascript
 {
   "tested_solution": {
-    "solution_id": "<your-solution-id>",
-    "version": "<your-solution-version>"
+    "solution_id": "<your-solution-id>", // e.g. 'Example Solution' has solution id "example-solution"
+    "version": "<your-solution-version>" // e.g. "0.0.0"
   },
   "tested_by": {
-    "solution_name": "<solution-name>",
+    "solution_name": "<Solution Name>", // e.g. "Another Solution"
     "version": "<solution-version>",
-    "solution_id": "<solution-id>"
+    "solution_id": "<solution-id>" // e.g. "another-solution"
   },
   "test_result": "passed",
   "test_date": "<date>",
-  "pathfinder_version": "<pathfinder-framework-version>"
+  "pathfinder_version": "<pathfinder-framework-version>" // "1.0.1" or "2.0.1"
 }
 ```
 
@@ -39,11 +41,11 @@ The `"solution_id"` property of the `"tested_by"` attribute is optional, but hig
 
 In case your solution did not pass the test but you nevertheless want to add the conformance test result to the catalog, replace the value of the `"test_result"` field by `"failed"`.
 
-The `<pathfinder-framework-version` can be either `1.0.1` or `2.0.0`.
+The `<pathfinder-framework-version` can be either `1.0.1` or `2.0.1`.
 
 If your solution was tested for specific extensions, please add also the field `"tests"`, based on the following structure:
 
-```json
+```javascript
   "extensions_tested": [
     {
       "namespace": "@<user-id>",
@@ -53,13 +55,11 @@ If your solution was tested for specific extensions, please add also the field `
   ]
 ```
 
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<your-solution-id>`, `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. The value replacing `<test-number>` should only include three digits from 0 to 9. Please make sure that these remain consistent.
-
 Please refer to [this example](./catalog/conformance-tests/result-example-solution-001.json) to see how your conformance test `json` should look like.
 
 ### 3. Commit your branch, push it, and open a Pull Request
 
-Please continue from [step 4 of the main instructions](/README.md#4-commit-and-push-your-branch).
+Please continue from [step 6 of the main instructions](/README.md#4-commit-and-push-your-branch).
 
 Your Pull Request will be reviewed and your conformance test result added to the PACT Online Catalog as soon as possible.
 
