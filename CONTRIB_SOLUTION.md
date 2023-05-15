@@ -30,14 +30,14 @@ Open the `json` file created in step 4. and fill it by adapting the following st
   "name": "<your-solution-name>",
   "version": "<your-solution-version>",
   "website": "<your-solution-website>",
-  "provider": "<your-user-id>",
+  "provider_id": "<your-user-id>",
   "summary": "<summary>"
 }
 ```
 
 Note: The `"summary"` field is optional but highly recommended.
 
-If your solution supports Data Model Extensions, please include also the field `"extensions"`, based on the following structrue:
+If your solution supports Data Model Extensions, please include also the field `"extensions"`, based on the following structure:
 
 ```json
   "extensions": [
