@@ -57,7 +57,7 @@ If your solution was conceived to be used in specific industries — and especia
   "industries": ["<industry>"],
 ```
 
-Please refer to [this example](./catalog/solutions/example-solution/0.0.0/solution.json) to see how your `solution.json` file should look like.
+Please refer to [this example](./catalog/examples/solutions/example-solution/0.0.0/solution.json) to see how your `solution.json` file should look like.
 
 ### 4. Contribute a Conformance Test Result
 
