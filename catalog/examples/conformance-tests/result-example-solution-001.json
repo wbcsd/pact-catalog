@@ -1,0 +1,21 @@
+{
+  "tested_solution": {
+    "solution_id": "example-solution",
+    "version": "0.0.0"
+  },
+  "tested_by": {
+    "solution_id": "second-solution",
+    "version": "0.0.0",
+    "solution_name": "A Second Solution"
+  },
+  "test_result": "passed",
+  "test_date": "2023-04-13T09:00:00Z",
+  "pathfinder_version": "2.0.1",
+  "extensions_tested": [
+    {
+      "namespace": "@example-institution",
+      "extension_name": "example-extension",
+      "version": "0.0.0"
+    }
+  ]
+}
