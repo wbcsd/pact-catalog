@@ -157,7 +157,9 @@ async function validateAll(): Promise<void> {
     { dir: "./catalog/users", parser: UserParser },
     { dir: "./catalog/working-groups", parser: WorkingGroupParser },
   ]) {
-    for (const file of fs.readdirSync(dir)) {
+    for (const file of fs.readdirSync(dir).filter((file) => {
+      return path.extname(file).toLowerCase() === 'json';
+    })) {
       const jsonFile = path.join(dir, file);
       console.log(`checking ${jsonFile}`);
       try {
