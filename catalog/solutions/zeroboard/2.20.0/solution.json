@@ -1,0 +1,8 @@
+{
+ "id": "zeroboard",
+ "name": "zeroboard",
+ "version": "2.20.0",
+ "website": "https://zeroboard.jp",
+ "provider": "zeroboard",
+ "summary": "zeroboard is a cloud service that enables the calculation and visualization of greenhouse gas (GHG) emissions. It offers a range of features, including calculating and visualizing CO2 emissions, conducting emissions assessments for products and services, and facilitating the exchange of carbon footprint data using the Pathfinder Framework/Network. Another noteworthy aspect of zeroboard is its reporting feature, which allows for the generation of comprehensive reports and the exchange of reliable data in accordance with established standards. Additionally, zeroboard supports the setting of reduction targets, their efficient management, and collaborative action with partners. With its flexibility and versatility, zeroboard is designed to cater to companies of all sizes and diverse industries, ensuring its broad usability and relevance."
+}
