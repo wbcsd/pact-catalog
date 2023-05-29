@@ -53,7 +53,7 @@ Open the `json` file created in step 4. and fill it by adapting the following st
   "name": "<Your Name>", // e.g. "ABC Corp"
   "email": "<your-email>",
   "website": "<your-website>",
-  "logo": "<url-to-your-logo>" // to be displayed in the collaborators page
+  "logo": "<url-to-your-logo>" // to be displayed in the collaborators page (optional)
 }
 ```
 
