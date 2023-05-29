@@ -1,0 +1,44 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "https://github.com/sine-fdn/locode-extension/blob/main/specs/locode_extension.json",
+    "title": "UN/LOCODE Data Model Extension (Version 0.1.0-20230522)",
+    "description": "The LOCODE data model extension. See https://sine-fdn.github.io/locode-extension for details",
+    "type": "object",
+    "required": [
+      "unlocode"
+    ],
+    "properties": {
+      "coordinates": {
+        "description": "The property `coordinates`. See https://sine-fdn.github.io/locode-extension/#element-attrdef-productfootprint-coordinates",
+        "default": null,
+        "examples": [
+          "0917S 03220E"
+        ],
+        "type": "string",
+        "maxLength": 12,
+        "minLength": 12,
+        "pattern": "^[0-9]{4}[NS] [0-9]{5}[WE]$"
+      },
+      "name": {
+        "description": "The property `name`. See https://sine-fdn.github.io/locode-extension/#element-attrdef-productfootprint-name",
+        "type": "string",
+        "nullable": true
+      },
+      "remarks": {
+        "description": "The property `remarks`. See https://sine-fdn.github.io/locode-extension/#element-attrdef-productfootprint-remarks",
+        "type": "string",
+        "nullable": true
+      },
+      "unlocode": {
+        "description": "The property `unlocode`. See https://sine-fdn.github.io/locode-extension/#element-attrdef-productfootprint-unlocode",
+        "examples": [
+          "ZMCHZ"
+        ],
+        "type": "string",
+        "maxLength": 5,
+        "minLength": 5,
+        "pattern": "^[A-Z]{2}[A-Z2-9]{3}$",
+        "nullable": true
+      }
+    }
+  }
