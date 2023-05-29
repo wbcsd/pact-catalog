@@ -52,7 +52,8 @@ Open the `json` file created in step 4. and fill it by adapting the following st
   "kind": "<solutionprovider | ngo | company>", // select one
   "name": "<Your Name>", // e.g. "ABC Corp"
   "email": "<your-email>",
-  "website": "<your-website>"
+  "website": "<your-website>",
+  "logo": "<url-to-your-logo>" // to be displayed in the collaborators page
 }
 ```
 
@@ -67,7 +68,7 @@ If you already endorse Data Model Extensions, please include also the field `"ex
   ]
 ```
 
-Please refer to [this example](/catalog/users/example-institution.json) to see how your `<your-user-id>.json` file should look like.
+Please refer to [this example](./catalog/examples/users/example-institution.json) to see how your `<your-user-id>.json` file should look like.
 
 ### 5. Follow the contribution-specific tests
 
