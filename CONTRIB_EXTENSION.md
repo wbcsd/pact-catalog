@@ -55,7 +55,7 @@ Open the `extension.json` file created in step 4. and fill it adapting the follo
 }
 ```
 
-Please refer to [this example](./catalog/data-model-extensions/@example-institution/example-extension/0.0.0/extension.json) to see how your `extension.json` should look like.
+Please refer to [this example](./catalog/examples/data-model-extensions/@example-institution/example-extension/0.0.0/extension.json) to see how your `extension.json` should look like.
 
 
 #### 3.2 `schema.json`
