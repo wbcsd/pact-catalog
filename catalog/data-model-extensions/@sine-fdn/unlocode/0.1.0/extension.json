@@ -1,6 +1,6 @@
 {
   "id": {
-    "namespace": "@sine",
+    "namespace": "@sine-fdn",
     "extension_name": "unlocode",
     "version": "0.1.0"
   },
@@ -15,7 +15,7 @@
   "catalog_info": {
     "summary": "The Pathfinder Framework Data Model allows for the interoperable exchange of product footprint data. This includes the product’s carbon footprint, represented in the Data Model as a CarbonFootprint. Each CarbonFootprint is scoped by Geography, specified (at maximum resolution) as a ISO 3166-2 country subdivision. In some cases, the current resolution is insuficient and a more precise, hopefully plant-level, geographic specification would be recommended. The UN/LOCODE Data Model Extension aims at providing precisely the required level of granularity, using an international coding scheme that is public and can be integrated into solutions.",
     "status": "draft",
-    "authors": ["sine"]
+    "authors": ["sine-fdn"]
   },
   "industries": []
 }
