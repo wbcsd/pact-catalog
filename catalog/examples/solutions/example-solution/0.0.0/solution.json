@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "name": "Example Solution",
   "website": "https://pact-catalog.sine.dev",
-  "provider": "example-solution-provider",
+  "provider_id": "example-solution-provider",
   "summary": "This is an example of what a Conforming Solution (pending conformance) looks like when onboarded to the PACT Online Catalog",
   "extensions": [
     {
