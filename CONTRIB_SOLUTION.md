@@ -32,7 +32,7 @@ Open the `json` file created in step 4. and fill it by adapting the following st
   "name": "<Your Solution Name>", // e.g. "Example Solution"
   "version": "<your-solution-version>", // e.g. "0.0.0"
   "website": "<your-solution-website>",
-  "provider": "<your-user-id>", // e.g. 'ABC Corp' has user id "abc" or "abc-corp"
+  "provider_id": "<your-user-id>", // e.g. 'ABC Corp' has user id "abc" or "abc-corp"
   "summary": "<summary>"
 }
 ```
