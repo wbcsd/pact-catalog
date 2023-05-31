@@ -55,7 +55,7 @@ If your solution was tested for specific extensions, please add also the field `
   ]
 ```
 
-Please refer to [this example](./catalog/conformance-tests/result-example-solution-001.json) to see how your conformance test `json` should look like.
+Please refer to [this example](./catalog/examples/conformance-tests/result-example-solution-001.json) to see how your conformance test `json` should look like.
 
 ### 3. Commit your branch, push it, and open a Pull Request
 
