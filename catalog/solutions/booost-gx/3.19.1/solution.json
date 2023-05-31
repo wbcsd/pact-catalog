@@ -3,7 +3,7 @@
     "version": "3.19.1",
     "name": "booost Sustainability Cloud (booost GX)",
     "website": "https://booost-tech.com/solutions/bsc/gx/",
-    "provider": "booost-tech",
+    "provider_id": "booost-tech",
     "summary": "booost GX, one of the components of booost Sustainability Cloud, is a decarbonization cloud software accelerating customer's pathways to Net-Zero. It enables automated computation and visualization of CO2 emissions, roadmap planning and monitoring towards Carbon Neutral, carbon offsetting, and reporting under international standards such as RE100, SBTi, and the Japanese Statutory Reporting.",
     "extensions": []
   }
