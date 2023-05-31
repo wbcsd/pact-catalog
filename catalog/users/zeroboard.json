@@ -3,5 +3,6 @@
   "kind": "solutionprovider",                                
   "name": "Zeroboard Inc.",                    
   "email": "riku.isayama@zeroboard.jp",
-  "website": "https://zeroboard.jp/"
+  "website": "https://zeroboard.jp/",
+  "logo": "https://cdn.app.zeroboard.jp/zeroboard-logo-white-background/zeroboard_yoko.jpg"
 }
