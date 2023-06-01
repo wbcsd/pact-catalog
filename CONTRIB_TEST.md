@@ -8,17 +8,17 @@ To contribute a Conformance Test Result, please follow these steps:
 
 From the parent directory of your local repository run
 
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<your-solution-id>`, `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. The value replacing `<test-number>` should follow the `XYZ` format, i.e., include three digits from 0 to 9. If this is the first test for a particular solution, please replace it with `001`. Please make sure that these remain consistent.
+
 ```sh
 touch catalog/conformance-tests/result-<your-solution-id>-<test-number>.json
 ```
 
-The `<test-number>` should follow the `XYZ` format. If this is the first test for a particular solution, please replace it with `001`.
+E.g., `touch catalog/conformance-tests/result-example-solution-001.json`
 
 ### 2. Fill in the conformance test details
 
 Open the `json` file created in step 5. and fill it adapting the following structure:
-
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<your-solution-id>`, `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. The value replacing `<test-number>` should only include three digits from 0 to 9. Please make sure that these remain consistent.
 
 ```javascript
 {
@@ -41,7 +41,7 @@ The `"solution_id"` property of the `"tested_by"` attribute is optional, but hig
 
 In case your solution did not pass the test but you nevertheless want to add the conformance test result to the catalog, replace the value of the `"test_result"` field by `"failed"`.
 
-The `<pathfinder-framework-version` can be either `1.0.1` or `2.0.1`.
+The `<pathfinder-framework-version` can be either `1.0.1` or `2.0.0`.
 
 If your solution was tested for specific extensions, please add also the field `"tests"`, based on the following structure:
 
