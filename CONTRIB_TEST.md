@@ -14,6 +14,7 @@ From the parent directory of your local repository run
 touch catalog/conformance-tests/result-<your-solution-id>-<test-number>.json
 ```
 
+E.g., `touch catalog/conformance-tests/result-example-solution-001.json`
 
 ### 2. Fill in the conformance test details
 
@@ -40,7 +41,7 @@ The `"solution_id"` property of the `"tested_by"` attribute is optional, but hig
 
 In case your solution did not pass the test but you nevertheless want to add the conformance test result to the catalog, replace the value of the `"test_result"` field by `"failed"`.
 
-The `<pathfinder-framework-version` can be either `1.0.1` or `2.0.1`.
+The `<pathfinder-framework-version` can be either `1.0.1` or `2.0.0`.
 
 If your solution was tested for specific extensions, please add also the field `"tests"`, based on the following structure:
 
