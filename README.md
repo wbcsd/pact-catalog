@@ -6,7 +6,9 @@ This repository holds the [PACT Online Catalog](https://pact-catalog.sine.dev).
 
 To contribute to the PACT Online Catalog with an <strong>Data Model Extension</strong>, a <strong>Conformant Solution</strong>, or a <strong>Conformance Test Result</strong>, please follow these steps:
 
-### 1. Fork the `pact-catalog` repository and clone it into your local machine
+### 1. Fork the `pact-catalog` repository
+
+#### 1.1 Fork and clone the `pact-catalog` repository
 
 If you have GitHub CLI tools installed, open a terminal window and run
 
@@ -22,6 +24,16 @@ Then, open a terminal window and run
 git clone git@github.com:<your-github-id>/pact-catalog.git
 ```
 
+#### 1.2 Enable workflows
+
+Go to your forked repository on GitHub, click on the `Actions` tab and then on the green button `I understand my workflows, go ahead and enable them`:
+
+<p align="center">
+  <img src="https://github.com/wbcsd/pact-catalog/assets/100690574/971ec9e4-2222-44d9-ae5c-259d5e4b26f4" width=800>
+</p>
+
+Automatic validation will now run when you commit your branch to GitHub, allowing you to know whether your contribution to the catalog is syntactically correct and minimizing back-and-forth messages and turnover time.
+
 ### 2. Checkout a new branch
 
 Run
@@ -29,7 +41,6 @@ Run
 ```sh
 git checkout -b <your-branch>
 ```
-
 ### 3. Create a new user in the `users` directory
 
 > **_NOTE:_** If you have already created a user, do not create a new one. Instead, please make sure the user you have created is in the `users` directory and that all fields are correct. Then, skip to step 5.
