@@ -8,9 +8,14 @@ To contribute a Data Model Extension, please follow these steps:
 
 From the parent directory of your local repository run
 
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<extension-id>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<extension-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent. The value replacing `<MIT | CC0>` should be either `"MIT"` or `"CC0"`
+
+
 ```sh
 mkdir -p catalog/data-model-extensions/@<your-user-id>/<extension-id>/<extension-version>
 ```
+
+E.g., `mkdir -p catalog/data-model-extensions/@abc-institute/example-extension/0.0.0`
 
 ### 2. Populate your extension's directory with the necessary files
 
@@ -21,6 +26,9 @@ cd catalog/data-model-extensions/@<your-user-id>/<extension-id>/<extension-versi
 touch LICENSE && touch extension.json && touch schema.json && touch README.md
 ```
 
+E.g., `cd catalog/data-model-extensions/abc-institute/example-extension/0.0.0
+touch LICENSE && touch extension.json && touch schema.json && touch README.md`
+
 The `README.md` file is optional, but highly recommended. It should be filled with information about the extension and instructions on how to use it.
 
 ### 3. Fill in your extension's details
@@ -28,8 +36,6 @@ The `README.md` file is optional, but highly recommended. It should be filled wi
 #### 3.1 `extension.json`
 
 Open the `extension.json` file created in step 4. and fill it adapting the following structure:
-
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<extension-id>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<extension-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent. The value replacing `<MIT | CC0>` should be either `"MIT"` or `"CC0"`
 
 ```javascript
 {
