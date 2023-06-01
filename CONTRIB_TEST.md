@@ -8,13 +8,12 @@ To contribute a Conformance Test Result, please follow these steps:
 
 From the parent directory of your local repository run
 
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<your-solution-id>`, `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. The value replacing `<test-number>` should only include three digits from 0 to 9. Please make sure that these remain consistent.
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<your-solution-id>`, `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. The value replacing `<test-number>` should follow the `XYZ` format, i.e., include three digits from 0 to 9. If this is the first test for a particular solution, please replace it with `001`. Please make sure that these remain consistent.
 
 ```sh
 touch catalog/conformance-tests/result-<your-solution-id>-<test-number>.json
 ```
 
-The `<test-number>` should follow the `XYZ` format. If this is the first test for a particular solution, please replace it with `001`.
 
 ### 2. Fill in the conformance test details
 
