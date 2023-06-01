@@ -8,6 +8,8 @@ To contribute a PACT Conformant Solution, please follow these steps:
 
 From the parent directory of your local repository run
 
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<your-solution-id>` and `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
+
 ```sh
 mkdir -p catalog/solutions/<your-solution-id>/<your-solution-version>
 ```
@@ -24,7 +26,6 @@ touch catalog/solutions/<your-solution-id>/<your-solution-version>/solution.json
 
 Open the `json` file created in step 4. and fill it by adapting the following structure:
 
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<your-solution-id>` and `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
 
 ```javascript
 {
