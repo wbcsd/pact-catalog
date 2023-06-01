@@ -14,6 +14,8 @@ From the parent directory of your local repository run
 mkdir -p catalog/solutions/<your-solution-id>/<your-solution-version>
 ```
 
+E.g., `mkdir -p catalog/solutions/example-solution/0.0.0`
+
 ### 2. Create a new `json` file in your solution's directory
 
 From the parent directory of your local repository run
@@ -21,6 +23,9 @@ From the parent directory of your local repository run
 ```sh
 touch catalog/solutions/<your-solution-id>/<your-solution-version>/solution.json
 ```
+
+E.g., `touch catalog/solutions/example-solution/0.0.0/solution.json`
+
 
 ### 3. Fill in your solution's details
 
