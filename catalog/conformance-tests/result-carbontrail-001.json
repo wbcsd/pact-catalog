@@ -4,12 +4,12 @@
     "version": "1.0.0"
   },
   "tested_by": {
-    "solution_id": "climatecamp",
-    "version": "2.0.0",
-    "solution_name": "ClimateCamp"
+    "solution_id": "carboledger",
+    "version": "1.0.0",
+    "solution_name": "Carboledger"
   },
   "test_result": "passed",
-  "test_date": "2023-07-03T09:00:00Z",
+  "test_date": "2023-07-01T09:00:00Z",
   "pathfinder_version": "2.0.0",
   "extensions_tested": []
 }
