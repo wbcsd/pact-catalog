@@ -3,5 +3,6 @@
   "kind": "solutionprovider",
   "name": "atma.io",
   "email": "hello@atma.io",
-  "website": "https://www.atma.io/"
+  "website": "https://www.atma.io/",
+  "logo": " https://atmagaiaproduction.blob.core.windows.net/assets/atma.io_AD_black.png"
 }
