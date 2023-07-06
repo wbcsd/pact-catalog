@@ -4,6 +4,5 @@
   "version": "2.0.1",
   "website": "https://atma.io/",
   "provider_id": "atma-io",
-  "logo": " https://atmagaiaproduction.blob.core.windows.net/assets/atma.io_AD_black.png",
   "summary": "A platform that unlocks the power of connected products by assigning unique digital IDs to everyday items, providing unparalleled end-to-end transparency by tracking, storing and managing all the events associated with each individual product — from source to consumer and beyond to enable circularity and PACT Pathfinder conformant product carbon footprint data exchange."
 }
