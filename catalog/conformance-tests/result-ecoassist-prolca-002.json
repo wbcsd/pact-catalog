@@ -1,0 +1,14 @@
+{
+  "tested_solution": {
+    "solution_id": "ecoassist-prolca",
+    "version": "02-00g_P"
+  },
+  "tested_by": {
+    "solution_name": "zeroboard",
+    "version": "2.20.0",
+    "solution_id": "zeroboard"
+  },
+  "test_result": "passed",
+  "test_date": "2023-05-26T17:27:39Z",
+  "pathfinder_version": "1.0.1"
+}
