@@ -3,6 +3,6 @@
   "name": "EcoAssist-Pro/LCA",
   "version": "02.00g.P",
   "website": "https://www.hitachi.co.jp/products/it/control_sys/ecoassist/lca/index.html",
-  "provider": "hitachi",
+  "provider_id": "hitachi",
   "summary": "\"EcoAssist-Pro/LCA\" is a BOM-based system that enables calculation of product carbon footprint in line with actual conditions by linking with related systems such as the weight of materials and parts to be procured, the amount of electricity consumed in its processing, assembly, and inspection processes, and the electricity consumed by products."
 }
