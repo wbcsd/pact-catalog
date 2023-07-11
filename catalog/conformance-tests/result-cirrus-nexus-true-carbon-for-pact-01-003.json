@@ -1,0 +1,15 @@
+{
+  "tested_solution": {
+    "solution_id": "cirrus-nexus-true-carbon-for-pact-01",
+    "version": "2.0.0"
+  },
+  "tested_by": {
+    "solution_name": "atma.io",
+    "version": "2.0.1",
+    "solution_id": "atma-io"
+  },
+  "test_result": "passed",
+  "test_date": "2023-07-05T06:11:00Z",
+  "pathfinder_version": "2.0.0",
+  "extensions_tested": []
+}
