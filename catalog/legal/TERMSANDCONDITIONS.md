@@ -1,3 +1,4 @@
+
 **WEBSITE TERMS AND CONDITIONS**
 
 **The World Business Council for Sustainable Development, an association
@@ -439,5 +440,371 @@ Content will be resolved and decided under, the laws of Switzerland. Any
 action or proceeding related to such dispute shall be subject to the
 non-exclusive jurisdiction of, and User hereby expressly submit to the
 personal jurisdiction of the Swiss courts.
+
+Updated June \_\_, 2023.
+
+
+**SUBMISSION TERMS AND CONDITIONS**
+
+The World Business Council for Sustainable Development, an association
+organized under Swiss law (“**WBCSD**”), operating the Partnership for
+Carbon Transparency (“**PACT**”) to increase transparency of product
+carbon emissions (the product carbon footprint) across industries and
+sectors, has established, on this website (or any other, different, or
+additional website as may be determined by WBCSD from time to time) (the
+“**Website**”) (i) a list identifying technical solutions for the
+exchange of Scope 3 carbon footprint data submitted to PACT by companies
+and other persons (each, a “**Solution**”) made available through PACT
+to the public as a digital catalog on the Website (the “**Solutions
+Catalog**”) and (ii) standards for the exchange of product carbon
+footprint data submitted to PACT (each, a “**Data Model Extension**”)
+made available through PACT to the public in a repository accessible
+through the Website (the “**Extension Repository**”).
+
+These Submission Terms and Conditions (these “**Terms**”) govern the
+terms, conditions, and requirements for submissions by the company or
+other person who accepts, or on whose behalf are accepted, these Terms
+(“**Contributor**”) of a Solution proposed by Contributor to be listed
+in the Solutions Catalog (“**Proposed Solution**”) or of an Extension
+proposed by Contributor to be make available in the Extension Repository
+(“**Proposed Extension**”). These Terms constitute a legally binding
+contract between Contributor and WBCSD upon Contributor’s acceptance of
+these Terms on the Website. WBCSD and Contributor are referred to in
+these Terms individually as a “**Party**” and collectively as the
+“**Parties**”.
+
+**The individual accepting these Terms on behalf of Contributor hereby
+represents that the individual:**
+
+**has the full legal authority and agency from user to bind enter into
+these Terms on behalf of Contributor and to bind Contributor to all
+terms, conditions, and provisions in these Terms;**
+
+**has read and understands all of the terms, conditions, and provisions
+of these Terms; and**
+
+**has received any legal counsel, or had the opportunity to receive
+legal counsel, related to these Terms before accepting these Terms.**
+
+**Please read these Terms and the information referred to or linked to
+in these Terms carefully and ensure that you understand them before
+accepting these Terms.**
+
+**1.** **Communication with Contributor**
+
+WBCSD will communicate with Contributor, including to give legal
+notices, through the e-mail address or the physical address provided by
+Contributor in connection with setting up such account. Contributor may
+change its e-mail address and/or physical address by changing the same
+in Contributor’s account as permitted on the Website, provided that the
+validity or effect of any notices, demands, or other communication to
+Contributor to a prior e-mail address and/or physical address shall not
+be affected.
+
+**2. Modification of these Terms; Additional Terms**
+
+a\. WBCSD has the right to modify these Terms from time to time by
+giving Contributor notice thereof through communication pursuant to
+Section 1. If Contributor does not agree with such modifications or
+modified version, Contributor shall give written notice to WBCSD thereof
+no later than the next business day from WBCSD’s notice of such
+modification or modified version of these Terms. Any failure to give
+such written notice shall be conclusively deemed to be an agreement with
+the modifications or modified version, and these Terms shall then be
+deemed to so modified.
+
+b\. Access and use of the Website and any content thereon, including any
+Solution in the Solutions Catalog and any Data Model Extension in the
+Extension Repository is or may be subject to additional terms and
+conditions posted on the Website or in connection with the Solutions
+Catalog or the Extension Repository (collectively, “**Additional
+Terms**”). Contributor agrees to comply with all Additional Terms,
+provided that, in the event of a conflict between these Terms and any
+Additional Terms, these Terms shall prevail.
+
+**3. Submission**
+
+a\. Contributor is responsible for submitting such documentation and
+information required by WBCSD with the submission of a Proposed Solution
+or a Proposed Extension, including the necessary metadata for the
+Proposed Solution or Proposed Extension, Contributor’s contact
+information and the test results from conformance testing of the
+Proposed Solution conducted by two independent third parties that the
+Proposed Solution conforms to the requirements for a Solution. Upon
+WBCSD’s request, Contributor shall submit additional documentation and
+information as WBCSD deems necessary.
+
+b\. Contributor is solely responsible for all documentation and
+information submitted by Contributor (“**Submitted Information**”) all
+their content, including any inaccuracies, missing information, errors,
+and defects therein or related thereto. WBCSD conducts only a formal
+review whether Contributor submitted all documentation and information
+for a Proposed Solution or for a Proposed Extension conforming to
+WBCSD’s formal requirements for being included in the Solutions Catalog
+or in the Extension Repository. **WBCSD does not validate, verify, test,
+or otherwise confirm the Submitted Information or any Proposed Solution
+or Proposed Extension or any content thereof, including whether the
+confirmation of successful conformance testing is correct or accurate.**
+
+c\. WBCSD will not keep confidential, or agree to any confidentiality or
+non-disclosure obligation related to, any Submitted Information.
+Contributor covenants that no Submitted Information is a trade secret or
+otherwise confidential.
+
+d\. WBCSD has discretion whether to accept a Proposed Solution or a
+Proposed Extension, based on any Submitted Information and other
+documentation, information, and material. WBCSD has no obligation to
+conduct any investigation or research.
+
+**4. Accepted Solution or Accepted Extension**
+
+a\. If WBCSD accepts the Proposed Solution for the Solutions Catalog, it
+will include the Proposed Solution into the Solutions Catalog (referred
+to herein as an “**Accepted Solution**”). If WBCSD accepts the Proposed
+Extension for the Extension Repository, it will include the Proposed
+Extension in the Extension Repository (referred to herein as an
+“**Accepted Extension**”). WBCSD will not give Contributor notice of any
+acceptance or a rejection of a Proposed Solution or Proposed Extension.
+WBCSD will not return any Submitted Information.
+
+b\. Contributor hereby agrees and expressly consents that all Submitted
+Information for the Accepted Solution or the Accepted Extension will be
+fully disclosed and available to the public through the Solutions
+Catalog or the Extension Repository, respectively.
+
+**5. Licenses and Use Rights**
+
+a\. Contributor hereby grants WBCSD a non-exclusive, worldwide,
+irrevocable, non-terminable, license to (i) use, reproduce, display,
+perform, and create derivative works from all Submitted Information and
+any other material, content, and information provided by or for
+Contributor to WBCSD in connection with the review of the Proposed
+Solution or Proposed Extension, and (ii) use, reproduce, display,
+perform, create derivative works from, distribute, publish, and make
+available the Proposed Solution or Proposed Extension, the Submitted
+Information, and any other material, content, and information provided
+by or for Contributor to WBCSD in connection with listing thereof as a
+Accepted Solution or a Accepted Extension or any requests by any member
+or the public related thereto, and (iii) use and display Contributor’s
+names and marks on the Website and any materials and publications of
+WBCSD in connection with, or related to, the listing of the Accepted
+Solution or Accepted Extension in the Solutions Catalog and any
+communication related thereto, all free of any royalty, fee, or other
+payment.
+
+b\. Contributor hereby expressly agrees that any person may access and
+use any Accepted Solution and any Accepted Extension, whether for
+commercial, non-commercial, research, or other purposes or uses of any
+kind, without obligation to pay any fee, royalty, or other payment of
+any kind to Contributor.
+
+c\. With regard to any Accepted Extension, Contributor is responsible
+for including or posting any license terms in the Accepted Extension
+governing the use of such Accepted Extension, provided that no such
+license terms shall conflict with or deviate from any of the terms,
+conditions, or provisions in these Terms.
+
+**6. Reservation of Ownership**
+
+a\. WBCSD or its licensor retains sole ownership and rights in and to
+the Website, the Solutions Catalog, all material, content, and
+information thereon and therein, and all software and code comprising or
+underlying the foregoing, WBCSD’s marks and names, and all copyrights,
+trademark rights, and other intellectual property rights in and to the
+Website, the Solutions Catalog, such material, content, and information,
+such software and code, and such marks and names, anywhere in the world
+(“<u>WBCSD Property</u>”). WBCSD does not, and shall not be deemed to,
+assign, transfer, or convey any right, title, or interest in or to any
+WBCSD Property. WBCSD does not, and shall not be deemed to, grant any
+license, lien, claim, or other right to or under any WBCSD Property,
+except solely for any use right of the Website and the Solutions Catalog
+as granted in writing in the Additional Terms.
+
+b\. WBCSD does not acquire any ownership in or to, and Contributor or a
+third party licensor of Contributor shall retain any of their ownership
+in or to, any Submitted Information, Proposed Solution, Proposed
+Extension, Accepted Solution, or Accepted Extension.
+
+**7. Contributor Responsibility**
+
+a\. Contributor hereby warrants and represents that (i) Contributor
+solely owns or has otherwise all rights to submit to WBCSD the Proposed
+Solution or Proposed Extension and all Submitted Information and any
+other material, content, and information provided by or for Contributor,
+and to grant all licenses and rights granted by Contributor, under these
+Terms and for the purposes set forth herein, and (ii) all content, data,
+and information included in the Submitted Information or otherwise
+provided by Contributor to WBCSD are accurate, correct, and complete,
+and Contributor will promptly notify WBCSD in writing if Contributor
+knows or believes that any such content, data, or information is
+inaccurate, incorrect, incomplete, or outdated, and provide as possible
+corrected, completed, and updated content, data, and information, (iii)
+the Proposed Solution or Proposed Extension is not, and no Submitted
+Information is, submitted or made available for any purpose or in any
+manner that is illegal, fraudulent, or deceptive or contradicts the
+purpose or philosophy underling WBCSD or the Solutions Catalog, and (iv)
+the Proposed Solution or Proposed Extension no Submitted Information
+infringes any patent, copyright, trademark, or other intellectual
+property right of any third party or misappropriates any technology,
+works, content, data, or information of any third party.
+
+b\. Contributor will indemnify, defend, and hold harmless WBCSD, its
+members, and each of their affiliates, officers, employees, agents, and
+contractors from any claim, suit, action, investigation, proceeding,
+judgment, and order, and any damages, liabilities, losses, penalties,
+fines, costs, and expenses (including reasonable attorneys’ fees)
+related to the Proposed Solution, Proposed Extension, Accepted Solution,
+Accepted Extension, Submitted Information, any other material, content,
+and information provided or made available by or for Contributor, any
+use or reliance on the Accepted Solution or Accepted Extension accepted
+hereunder or any Submitted Information or other material, content, or
+information, or any breach or violation of any representation, covenant,
+or obligation of Contributor hereunder or any violation of law,
+negligence, or willful misconduct of Contributor or any of its officers,
+employees, agents, or contractors..
+
+**8.** **Disclaimer of Liability**
+
+a\. WBCSD **operates PACT and provides and makes available the Website,
+the Solutions Catalog, the listing of Accepted Solutions and Accepted
+Extensions, the opportunity to list any Accepted Solution or Accepted
+Extension, any review and consideration of any Proposed Solution or any
+Proposed Extension, and any services and other performance and
+activities under these Terms or related to the Website or the Solutions
+Catalog “AS IS”, without any representation, warranty, or guarantee.
+WBCSD does not make any, and hereby disclaims all, warranties,
+representations, and guarantees, whether express, implied, or otherwise,
+including all representations and warranties of merchantability, fitness
+for particular purpose, workmanship, title, license, and
+non-infringement, with regard to and in connection with PACT, the
+Website, the Solutions Catalog, the listing of Accepted Solutions and
+Accepted Extensions, the opportunity to list any Accepted Solution or
+Accepted Extension, any review and consideration of any Proposed
+Solution or any Proposed Extension, and any services and other
+performance and activities under these Terms or related to the Website
+or the Solutions Catalog, and any WBCSD Property, and that any
+information on this Website, in the Solutions Catalog, or related to any
+Accepted Solution or Accepted Extension is correct, complete,
+appropriate, or accurate or that any Accepted Solution or Accepted
+Extension does, in fact, conform to the Specifications or are functional
+or workable.**
+
+b\. **WBCSD is not and will not be liable, and disclaims any and all
+liability, to Contributor and any person claiming through or for
+Contributor, with regard to and in connection with the Website, the
+Solutions Catalog, the listing of Accepted Solutions and Accepted
+Extensions, the opportunity to list any Accepted Solution or Accepted
+Extension, any review and consideration of any Proposed Solution or any
+Proposed Extension, and any services and other performance and
+activities under these Terms or related to the Website or the Solutions
+Catalog, and any WBCSD Property, or the Proposed Solution or Proposed
+Extension or any Submitted Information or other material, content, or
+information of Contributor, or any loss, corruption, misappropriation,
+use, or disclosure thereof, or any access to or use of any Accepted
+Solution or Accepted Extension, or any failure, malfunction, error, or
+defect related thereto. To the fullest extent permissible under law, in
+no event is or will WBCSD, its members, or any of their affiliates,
+officers, employees, agents, and contractors be liable for any damages
+or loss, including any incidental, consequential, direct, indirect,
+liquidated, punitive, or other damages of any kind, loss of profit, or
+tangible or intangible loss or damages, under any cause of action and
+remedy, whether any of such damages were predictable or not. Contributor
+hereby waives any and all claims, rights, and remedies for any damages
+of any kind against WBCSD, its members, or any of their affiliates,
+officers, employees, agents, and contractors to the greatest extent
+permitted under applicable law. To the extent that the foregoing
+exclusion of liability is not valid or enforceable under applicable law,
+Contributor agrees that the total and aggregate liability of WBCSD, its
+members, and all of their affiliates, officers, employees, agents, and
+contractors is capped and limited at one thousand Swiss Francs(CHF
+1,000.00), for any and all claims and causes of action, under these
+Terms and/or related to the Website, the Solutions Catalog, any Accepted
+Solution or Accepted Extension, or any service, performance, and
+activities hereunder.**
+
+c\. **The foregoing disclaims, exclusions, and limitations in this
+Section 8 are a material part of these Terms and WBCSD’s performance
+under these Terms.**
+
+**9. Suspension and Removal**
+
+a\. WBCSD may, and expressly reserves the right to, remove any Accepted
+Solution from the Solutions Catalog and any Accepted Extension from the
+Extension Repository, or to suspend access to any Accepted Solution or
+Accepted Extension, in the event of any error, defect, inaccuracy, flaw,
+or other problem related, or reasonably perceived by WBCSD with regard
+to, the Accepted Solution,, the Accepted Extension, or Contributor, or
+any breach of these Terms or any Additional Terms by Contributor, or for
+any other reason, including if a claim is made, whether to WBCSD or
+otherwise, that the Accepted Solution or Accepted Extension or its
+operation or use is defective, inaccurate, misleading, or subject to any
+error, lack of reliability, or appearance of any error or lack of
+reliability, with or without notice to Contributor.
+
+b\. The terms, conditions, and provisions set forth in Sections 6, 7, 8,
+and 10, and this Section 9.b, will survive and continue in effect after
+any removal of any Accepted Solution or any Accepted Extension, or any
+termination, expiration, or cancellation of these Terms for any reason.
+
+**10. Miscellaneous**
+
+# a. The Parties are independent contractors and will always represent themselves as independent contractors. The Parties are not, and shall not be deemed to be, partners, joint venturers, co-owners, franchisor-franchisee, or otherwise participants in a joint or common undertaking. The employees or agents of one Party are not, and shall not be construed to be, employees or agents of the other Party, and such other Party shall not be liable for, have any obligations to, and may not be bound by such employees and agents of the first Party.
+
+# 
+
+## b. The Parties do not intend any third party to be a third party beneficiary under these Terms, and nothing in these Terms shall be construed for any third party to be a third party beneficiary or to confer any third party beneficiary rights or status on any third party.
+
+## 
+
+c\. Contributor may not transfer or assign these Terms or any right
+under these Terms, or delegate or transfer any obligation or duty under
+these Terms, without the prior written consent of the other Party. WBCSD
+may transfer or assign these Terms and any rights and obligations under
+these Terms, wholly or partially, to any third party. Any attempted
+assignment or delegation in contravention of the foregoing shall be null
+and void. These Terms shall otherwise be binding upon and inure to the
+benefit of the permitted successors and assigns of the Parties.
+
+d\. The term “**Section**” means any of the numbered sections and
+subsections of these Terms. The term “including” means “including,
+without limitation” or “including, but not limited to”. All headings and
+titles are intended solely for the convenience of the Parties and will
+not affect the meaning or construction of any provision hereof. These
+Terms and its terms, conditions, and provisions shall be construed as if
+drafted jointly by the Parties. No presumptions or burdens of proof
+shall arise favoring any Party by virtue of the authorship thereof.
+
+e\. These Terms constitute the entire understanding and agreement
+between the Parties hereto related to the subject matter hereof. A
+failure of a Party to exercise any right provided for herein shall not
+be deemed to be a waiver of any right hereunder. No right of a Party
+under these Terms is waived, changed, discharged, or terminated except
+by an instrument in writing signed by such Party through its authorized
+representative therefor and specifically identifying such right.
+
+f\. These Terms shall be interpreted and construed in accordance with,
+and the validity, enforceability, and enforcement of these Terms shall
+be governed by, and any dispute under these Terms shall be resolved in
+accordance with, the laws of Switzerland.
+
+h\. Notwithstanding Section 10.g, WBCSD shall be entitled to seek
+injunctive relief or specific performance in any court of applicable
+jurisdiction, without need or obligation to post any bond, to enforce
+any obligation, agreement, covenant, term, and condition under these
+Terms, in addition to any other rights and remedies available to WBCSD,
+all as WBCSD elects in its sole discretion.
+
+i\. If any provision of these Terms is held to be invalid or
+unenforceable, the meaning of said provision will be construed, to the
+extent feasible, so as to render the provision enforceable, and if no
+feasible interpretation shall save such provision, it will be severed
+from the remainder of these Terms, as appropriate, and such remainder of
+these Terms shall remain in full force and effect.
+
+j\. All notices, demands, or other legal communications to be given or
+delivered to WBCSD shall be writing and sent to WBCSD at the following
+electronic mail address, and shall be clearly identified in the
+electronic mail message’s subject line as a “notice under the Submission
+Terms and Conditions”: pact@wbcsd.org.
 
 Updated June \_\_, 2023.
