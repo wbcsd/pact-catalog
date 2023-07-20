@@ -312,8 +312,6 @@ i.	If any provision of these Terms is held to be invalid or unenforceable, the m
 
 j.	All notices, demands, or other legal communications to be given or delivered to WBCSD shall be writing and sent to WBCSD at the following electronic mail address, and shall be clearly identified in the electronic mail message’s subject line as a “notice under the Submission Terms and Conditions”: pact@wbcsd.org.  
 
-<br/>
-<br/>
-Updated July 19, 2023.
 
+Updated July 19, 2023.   
 © 2023 by World Business Council for Sustainable Development.  All Rights Reserved.
