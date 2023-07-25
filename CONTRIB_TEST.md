@@ -33,7 +33,7 @@ Open the `json` file created in step 5. and fill it adapting the following struc
   },
   "test_result": "passed",
   "test_date": "<date>",
-  "pathfinder_version": "<pathfinder-framework-version>" // "1.0.1" or "2.0.1"
+  "pathfinder_version": "<pathfinder-framework-version>" // "1.0.0" or "1.0.1" or "2.0.1"
 }
 ```
 
@@ -41,7 +41,7 @@ The `"solution_id"` property of the `"tested_by"` attribute is optional, but hig
 
 In case your solution did not pass the test but you nevertheless want to add the conformance test result to the catalog, replace the value of the `"test_result"` field by `"failed"`.
 
-The `<pathfinder-framework-version` can be either `1.0.1` or `2.0.0`.
+The `<pathfinder-framework-version` can be either `1.0.0`, `1.0.1` or `2.0.0`.
 
 If your solution was tested for specific extensions, please add also the field `"tests"`, based on the following structure:
 
