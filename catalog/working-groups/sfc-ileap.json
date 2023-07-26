@@ -1,0 +1,19 @@
+{
+  "id": "sfc-ileap",
+  "name": "iLEAP – Integrating Logistics Emissions and Product Carbon Footprints",
+  "email": "violetta.matzoros@smartfreightcentre.org",
+  "description": "The iLEAP project facilitates emission transparency throughout the logistics supply chain, with a particular focus on assisting shippers in their decarbonization efforts. By gaining visibility into the logistics component of their product carbon footprint, shippers can make informed choices to reduce emissions and enhance sustainability.",
+  "work_in_progress": {},
+  "completed_work": {
+    "extensions": [],
+    "solutions": []
+  },
+  "members": [
+    {
+      "user_id": "sfc"
+    },
+    {
+      "user_id": "sine-fdn"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "tested_solution": {
+      "solution_id": "booost-gx",
+      "version": "3.19.1"
+    },
+    "tested_by": {
+      "solution_id": "zeroboard",
+      "version": "2.20.0",
+      "solution_name": "zeroboard"
+    },
+    "test_result": "passed",
+    "test_date": "2023-05-22T09:00:00Z",
+    "pathfinder_version": "1.0.1",
+    "extensions_tested": []
+  }

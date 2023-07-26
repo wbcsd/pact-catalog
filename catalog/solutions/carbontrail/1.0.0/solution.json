@@ -1,0 +1,9 @@
+{
+  "id": "carbontrail",
+  "version": "1.0.0",
+  "name": "Carbon Trail",
+  "website": "https://carbontrail.net",
+  "provider_id": "carbontrail",
+  "summary": "Carbon Trail is a carbon management platform tailor-made for the fashion industry. We help brands, retailers and manufacturers measure the environmental impact of their company and individual products both accurately and automatically.",
+  "industries": ["textile", "fashion"]
+}

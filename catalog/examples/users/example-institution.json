@@ -3,5 +3,6 @@
   "kind": "ngo",
   "name": "Example Institution",
   "email": "pact-catalog@sine.dev",
-  "website": "https://pact-catalog.sine.dev"
+  "website": "https://pact-catalog.sine.dev",
+  "logo": "https://www.carbon-transparency.com/media/yhefwbrq/sine.png"
 }

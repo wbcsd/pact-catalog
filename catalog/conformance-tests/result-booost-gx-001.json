@@ -1,0 +1,15 @@
+{
+    "tested_solution": {
+      "solution_id": "booost-gx",
+      "version": "3.19.1"
+    },
+    "tested_by": {
+      "solution_id": "nri-cts",
+      "version": "0.9.15",
+      "solution_name": "NRI-CTS"
+    },
+    "test_result": "passed",
+    "test_date": "2023-05-22T09:00:00Z",
+    "pathfinder_version": "1.0.1",
+    "extensions_tested": []
+  }

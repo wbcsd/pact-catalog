@@ -1,0 +1,8 @@
+{
+  "id": "cirrus-nexus-true-carbon-for-pact-01",
+  "name": "TrueCarbon",
+  "version": "2.0.0",
+  "website": "https://www.cirrus-nexus.com/truecarbon",
+  "provider_id": "cirrus-nexus",
+  "summary": "TrueCarbon is a unified platform that provides an integrated view of your IT spend and carbon footprint across all your hosting environments, including cloud, on-premises, and hybrid. Core features include automated PCF calculation of your IT footprint using real-time data on power consumption demand, IT system utilization rates, power source composition, and environmental variables; A.I.-driven recommendations to reduce spend and CO2 emissions through the life cycle of the IT system via automated and manual implementation; configuration of carbon costs based on organizational policies; and PACT conformant data exchange. TrueCarbon provides an accurate and detailed view of your IT carbon footprint as it shifts in real time. TrueCarbon’s insights are also accessible through our ServiceNow integration, available on the ServiceNow store."
+}

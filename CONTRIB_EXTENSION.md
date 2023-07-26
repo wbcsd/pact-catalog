@@ -8,18 +8,26 @@ To contribute a Data Model Extension, please follow these steps:
 
 From the parent directory of your local repository run
 
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<extension-id>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<extension-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent. The value replacing `<MIT | CC0>` should be either `"MIT"` or `"CC0"`
+
+
 ```sh
-mkdir -p catalog/data-model-extensions/@<your-name>/<extension-id>/<extension-version>
+mkdir -p catalog/data-model-extensions/@<your-user-id>/<extension-id>/<extension-version>
 ```
+
+E.g., `mkdir -p catalog/data-model-extensions/@abc-institute/example-extension/0.0.0`
 
 ### 2. Populate your extension's directory with the necessary files
 
 From the parent directory of your local repository run
 
 ```sh
-cd catalog/data-model-extensions/@<your-name>/<extension-id>/<extension-version>
+cd catalog/data-model-extensions/@<your-user-id>/<extension-id>/<extension-version>
 touch LICENSE && touch extension.json && touch schema.json && touch README.md
 ```
+
+E.g., `cd catalog/data-model-extensions/abc-institute/example-extension/0.0.0
+touch LICENSE && touch extension.json && touch schema.json && touch README.md`
 
 The `README.md` file is optional, but highly recommended. It should be filled with information about the extension and instructions on how to use it.
 
@@ -29,33 +37,32 @@ The `README.md` file is optional, but highly recommended. It should be filled wi
 
 Open the `extension.json` file created in step 4. and fill it adapting the following structure:
 
-```json
+```javascript
 {
   "id": {
-    "namespace": "@<your-name>",
-    "extension_name": "<extension-id>",
-    "version": "<extension-version>"
+    "namespace": "@<your-user-id>", // e.g. 'ABC Institute' has user id "abc-institute" or "abc"
+    "extension_name": "<extension-id>", // e.g. "example-extension"
+    "version": "<extension-version>" // e.g. "0.0.0"
   },
-  "name": "<Name of the extension>",
+  "name": "<Name of the extension>", // e.g. "Example Extension"
   "files": ["schema.json"],
   "author": {
-    "name": "<Institution's name>",
+    "name": "<Institution's name>", // e.g. "ABC Institute"
     "email": "<email>",
     "url": "<website>"
   },
-  "license": "<license>",
+  "license": "<MIT | CC0>", // select one
   "catalog_info": {
     "summary": "<Summary of the Extension>",
     "status": "draft",
-    "authors": ["<your-name>"]
+    "authors": ["<your-user-id>"] // same as the one used in the `"namespace"` field (without '@')
   },
   "industries": ["<industry>"]
 }
 ```
 
-Note: the value of `"license"` field must be either `"MIT"` or `"CC0"`.
+Please refer to [this example](./catalog/examples/data-model-extensions/@example-institution/example-extension/0.0.0/extension.json) to see how your `extension.json` should look like.
 
-Please refer to [this example](./catalog/data-model-extensions/@example-institution/example-extension/0.0.0/extension.json) to see how your `extension.json` should look like.
 
 #### 3.2 `schema.json`
 
@@ -69,9 +76,8 @@ You can use [this template](https://github.com/sine-fdn/pact-catalog-frontend/bl
 
 ### 4. Commit your branch, push it, and open a Pull Request
 
-Please continue from [step 4 of the main instructions](/README.md#4-commit-and-push-your-branch).
+Please continue from [step 6 of the main instructions](/README.md#4-commit-and-push-your-branch).
 
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-name>`, `<extension-id>` only include <strong>lowercase letters and dashes</strong> (instead of whitespaces). The value replacing `<extension-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
 
 Your Pull Request will be reviewed and added to the PACT Online Catalog as soon as possible.
 

@@ -1,0 +1,9 @@
+{
+    "id": "carboledger",
+    "name": "Carboledger",
+    "version": "2.0.0",
+    "website": "https://www.carboledger.com",
+    "provider_id": "carboledger",
+    "summary": "Carboledger helps chemical companies decarbonise their supply chain with accurate, supplier-specific PCF data that is standardised and compliant. Our secure network connects suppliers, customers and carbon solutions providers, allowing enterprises to seamlessly share, access and collaboratively manage primary PCF information. With our help, companies can reduce dependency on estimations-based carbon accounting and industry averages, all the while enhancing customer relations and maintaining control over confidential data.",
+    "extensions": []
+   }
