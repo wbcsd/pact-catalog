@@ -44,7 +44,7 @@ Open the `json` file created in step 5. and fill it adapting the following struc
     "solution_id": "<your-solution-id>", // e.g. 'Example Solution' has solution id "example-solution"
     "version": "<your-solution-version>" // e.g. "0.0.0"
   },
-  "tested_by": {
+  "tested_by": "<user-id>" // This field must match the `user-id` this Organization has registered in the PACT Catalog e.g. "abc-corp"
     "solution_name": "<Testing Otganization Name>", // This name must match with the User Name this Organization has registered itself in the PACT Catalog e.g. "ABC Corp"
   "test_result": "passed",
   "test_date": "<date>",
