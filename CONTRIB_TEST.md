@@ -20,6 +20,7 @@ E.g., `touch catalog/conformance-tests/result-example-solution-001.json`
 
 Open the `json` file created in step 5. and fill it adapting the following structure:
 
+<b>Scenario 1:</b> If you tested your solution with another Organization's solution
 ```javascript
 {
   "tested_solution": {
@@ -36,7 +37,23 @@ Open the `json` file created in step 5. and fill it adapting the following struc
   "pathfinder_version": "<pathfinder-framework-version>" // "1.0.0" or "1.0.1" or "2.0.0" or "2.0.1"
 }
 ```
-
+<b>Scenario 2:</b> If you tested your solution with an Organization who doesn't have a solution yet or have a solution but not yet onboarded to the PACT Catalog
+```javascript
+{
+  "tested_solution": {
+    "solution_id": "<your-solution-id>", // e.g. 'Example Solution' has solution id "example-solution"
+    "version": "<your-solution-version>" // e.g. "0.0.0"
+  },
+  "tested_by": {
+    "solution_name": "<Testing Otganization Name>", // This name must match with the User Name this Organization has registered itself in the PACT Catalog e.g. "ABC Corp"
+    "version": "", // leave it empty
+    "solution_id": "" // leave it empty
+  },
+  "test_result": "passed",
+  "test_date": "<date>",
+  "pathfinder_version": "<pathfinder-framework-version>" // "1.0.0" or "1.0.1" or "2.0.0" or "2.0.1"
+}
+```
 The `"solution_id"` property of the `"tested_by"` attribute is optional, but highly recommended. All other fields are mandatory.
 
 In case your solution did not pass the test but you nevertheless want to add the conformance test result to the catalog, replace the value of the `"test_result"` field by `"failed"`.
