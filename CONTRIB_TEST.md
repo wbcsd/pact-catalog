@@ -37,7 +37,7 @@ Open the `json` file created in step 5. and fill it adapting the following struc
   "pathfinder_version": "<pathfinder-framework-version>" // "1.0.0" or "1.0.1" or "2.0.0" or "2.0.1"
 }
 ```
-<b>Scenario 2:</b> If you tested your solution with an Organization who doesn't have a solution yet or have a solution but not yet onboarded to the PACT Catalog
+<b>Scenario 2:</b> If you tested your solution with an Organization who doesn't have a solution yet or has a solution but not yet onboarded to the PACT Catalog
 ```javascript
 {
   "tested_solution": {
