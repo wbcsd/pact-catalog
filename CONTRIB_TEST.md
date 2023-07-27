@@ -46,7 +46,6 @@ Open the `json` file created in step 5. and fill it adapting the following struc
   },
   "tested_by": {
     "solution_name": "<Testing Otganization Name>", // This name must match with the User Name this Organization has registered itself in the PACT Catalog e.g. "ABC Corp"
-    "version": "", // leave it empty
     "solution_id": "" // leave it empty
   },
   "test_result": "passed",
