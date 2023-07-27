@@ -47,7 +47,6 @@ Open the `json` file created in step 5. and fill it adapting the following struc
   "tested_by": {
     "solution_name": "<Testing Otganization Name>", // This name must match with the User Name this Organization has registered itself in the PACT Catalog e.g. "ABC Corp"
     "solution_id": "" // leave it empty
-  },
   "test_result": "passed",
   "test_date": "<date>",
   "pathfinder_version": "<pathfinder-framework-version>" // "1.0.0" or "1.0.1" or "2.0.0" or "2.0.1"
