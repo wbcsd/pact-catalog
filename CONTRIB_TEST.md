@@ -44,7 +44,9 @@ Open the `json` file created in step 5. and fill it adapting the following struc
     "solution_id": "<your-solution-id>", // e.g. 'Example Solution' has solution id "example-solution"
     "version": "<your-solution-version>" // e.g. "0.0.0"
   },
-  "tested_by": "<user-id>" // This field must match the `user-id` this Organization has registered in the PACT Catalog e.g. "abc-corp"
+  "tested_by": {
+    "collaborator_id": "<user-id>" // This field must match the `user-id` this Organization has registered in the PACT Catalog e.g. "abc-corp"
+  },
   "test_result": "passed",
   "test_date": "<date>",
   "pathfinder_version": "<pathfinder-framework-version>" // "1.0.0" or "1.0.1" or "2.0.0" or "2.0.1"
