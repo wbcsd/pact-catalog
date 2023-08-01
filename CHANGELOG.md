@@ -5,8 +5,10 @@
 
 ## 2023-08-01
 **************Changed**************
+
 Updated Instructions for Adding a PACT Conformance Test result - to allow adding test result for a Conformance test conducted with an organization whose solution is not available on the PACT Catalog 
 
 ## 2023-07-20
 **************Changed**************
+
 Updated the T&Cs as per the latest T&Cs from WBCSD
