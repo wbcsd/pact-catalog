@@ -37,7 +37,9 @@ Open the `json` file created in step 5. and fill it adapting the following struc
   "pathfinder_version": "<pathfinder-framework-version>" // "1.0.0" or "1.0.1" or "2.0.0" or "2.0.1"
 }
 ```
-<b>Scenario 2:</b> If you tested your solution with an Organization who doesn't have a solution yet or has a solution but not yet onboarded to the PACT Catalog
+The `"solution_id"` property of the `"tested_by"` attribute is optional, but highly recommended. All other fields are mandatory.
+
+<b>Scenario 2:</b> If you tested your solution with an Organization who doesn't have a solution yet or has a solution but not (yet) onboarded to the PACT Catalog
 ```javascript
 {
   "tested_solution": {
@@ -52,11 +54,10 @@ Open the `json` file created in step 5. and fill it adapting the following struc
   "pathfinder_version": "<pathfinder-framework-version>" // "1.0.0" or "1.0.1" or "2.0.0" or "2.0.1"
 }
 ```
-The `"solution_id"` property of the `"tested_by"` attribute is optional, but highly recommended. All other fields are mandatory.
 
 In case your solution did not pass the test but you nevertheless want to add the conformance test result to the catalog, replace the value of the `"test_result"` field by `"failed"`.
 
-The `<pathfinder-framework-version` can be either `1.0.0`, or  `1.0.1` or `2.0.0` or `2.0.1`.
+The `<pathfinder-framework-version>` can be either `1.0.0` or  `1.0.1` or `2.0.0` or `2.0.1`.
 
 If your solution was tested for specific extensions, please add also the field `"tests"`, based on the following structure:
 
