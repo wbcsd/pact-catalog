@@ -1,0 +1,9 @@
+{
+  "id": "optchain-carbon-tracking", 
+  "name": "Optchain - Carbon Tracking solution", 
+  "version": "1.0.0", 
+  "website": "https://www.optelgroup.com/en/solution/carbon-tracking/",
+  "provider_id": "optel-group", 
+  "summary": "Optchain's Carbon Tracking solution measures and tracks GHG emissions, serving the dual purpose of ensuring compliance and enhancing supply chain visibility. The solution is underpinned by an end-to-end traceability platform that empowers businesses with real-time visibility, enabling them to proactively pursue decarbonization efforts. By levaraging Optchain's Carbon Tracking solution, companies can take informed and concrete actions towards reducing their environmental footprint while staying compliant with regulations.",
+  "extensions": []
+}
