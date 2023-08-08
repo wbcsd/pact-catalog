@@ -1,0 +1,14 @@
+{
+  "tested_solution": {
+    "solution_id": "fujitsu",
+    "version": "1.0.0"
+  },
+  "tested_by": {
+    "solution_id": "nri-cts",
+    "version": "0.9.15",
+    "solution_name": "NRI-CTS"
+  },
+  "test_result": "passed",
+  "test_date": "2023-05-24T17:30:00Z",
+  "pathfinder_version": "1.0.1"
+}
