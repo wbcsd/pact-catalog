@@ -5,8 +5,7 @@
   },
   "tested_by": {
     "solution_id": "nri-cts",
-    "version": "2.0.0",
-    "solution_name": "NRI-CTS"
+    "version": "2.0.0"
   },
   "test_result": "passed",
   "test_date": "2023-04-26T09:00:00Z",

@@ -28,7 +28,6 @@ Open the `json` file created in step 5. and fill it adapting the following struc
     "version": "<your-solution-version>" // e.g. "0.0.0"
   },
   "tested_by": {
-    "solution_name": "<Solution Name>", // e.g. "Another Solution"
     "version": "<solution-version>",
     "solution_id": "<solution-id>" // e.g. "another-solution"
   },
@@ -37,7 +36,6 @@ Open the `json` file created in step 5. and fill it adapting the following struc
   "pathfinder_version": "<pathfinder-framework-version>" // "1.0.0" or "1.0.1" or "2.0.0" or "2.0.1"
 }
 ```
-The `"solution_id"` property of the `"tested_by"` attribute is optional, but highly recommended. All other fields are mandatory.
 
 <b>Scenario 2:</b> If you tested your solution with an Organization who doesn't have a solution yet or has a solution but not (yet) onboarded to the PACT Catalog
 ```javascript
