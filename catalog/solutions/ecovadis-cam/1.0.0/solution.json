@@ -1,8 +1,0 @@
-{
-  "id": "ecovadis-cam",
-  "name": "EcoVadis Product Carbon Footprint Data Exchange",
-  "version": "1.0.0",
-  "website": "https://ecovadis.com/solutions/carbon/",
-  "provider_id": "ecovadis",
-  "summary": "The platform provides standardized reporting of product carbon footprint data, enabling comparable PCF records of similar products across the supply chain. EcoVadis has designed form that help users to pace out the data input gradually and provides guidance for each step clearly. This form is complemented with training materials,  part of the EcoVadis Academy and other resources that support adoption and implementation of the platform.This platform is part of the EcoVadis Carbon Action Module an easy-to-use and comprehensive GHG management solution to engage suppliers and drive decarbonization across the supply chain."
-}
