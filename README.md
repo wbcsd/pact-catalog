@@ -1,17 +1,19 @@
 # PACT Online Catalog
 
-This repository holds the [PACT Online Catalog](https://pact-catalog.sine.dev).
+This repository holds the [PACT Catalog](https://pact-catalog.sine.dev).
 
 ## Contribute
 
 To contribute to the PACT Online Catalog with an <strong>Data Model Extension</strong>, a <strong>Conformant Solution</strong>, or a <strong>Conformance Test Result</strong>, please follow these steps:
 
-### 1. Fork the `pact-catalog` repository and clone it into your local machine
+### 1. Fork the `pact-catalog` repository
+
+#### 1.1 Fork and clone the `pact-catalog` repository
 
 If you have GitHub CLI tools installed, open a terminal window and run
 
 ```sh
-gh repo fork https://github.com/sine-fdn/pact-catalog.git --clone
+gh repo fork https://github.com/wbcsd/pact-catalog.git --clone
 ```
 
 Otherwise, navigate to the [pact-catalog repository](https://github.com/sine-fdn/pact-catalog.git) and fork it in your browser (instructions can be found [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)).
@@ -22,29 +24,41 @@ Then, open a terminal window and run
 git clone git@github.com:<your-github-id>/pact-catalog.git
 ```
 
-### 2. Checkout a new branch with your institution's id
+#### 1.2 Enable workflows
+
+Go to your forked repository on GitHub, click on the `Actions` tab and then on the green button `I understand my workflows, go ahead and enable them`:
+
+<p align="center">
+  <img src="https://github.com/wbcsd/pact-catalog/assets/100690574/971ec9e4-2222-44d9-ae5c-259d5e4b26f4" width=800>
+</p>
+
+Automatic validation will now run when you commit your branch to GitHub, allowing you to know whether your contribution to the catalog is syntactically correct and minimizing back-and-forth messages and turnover time.
+
+### 2. Checkout a new branch
 
 Run
 
 ```sh
-git checkout -b <your-user-id>
+git checkout -b <your-branch>
 ```
-
 ### 3. Create a new user in the `users` directory
 
 > **_NOTE:_** If you have already created a user, do not create a new one. Instead, please make sure the user you have created is in the `users` directory and that all fields are correct. Then, skip to step 5.
 
 From the parent directory of your local repository run
 
+
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the value replacing `<your-user-id>` only includes <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<solutionprovider | ngo | company>` should be `"solutionprovider"`, `"ngo"`, or `"company"`, depending on your situation.
+
 ```sh
 touch catalog/users/<your-user-id>.json
 ```
 
+E.g., `touch catalog/users/abc-corp.json`
+
 ### 4. Fill in your user's details
 
 Open the `json` file created in step 4. and fill it by adapting the following structure:
-
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the value replacing `<your-user-id>` only includes <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<solutionprovider | ngo | company>` should be `"solutionprovider"`, `"ngo"`, or `"company"`, depending on your situation.
 
 ```javascript
 {
@@ -52,7 +66,8 @@ Open the `json` file created in step 4. and fill it by adapting the following st
   "kind": "<solutionprovider | ngo | company>", // select one
   "name": "<Your Name>", // e.g. "ABC Corp"
   "email": "<your-email>",
-  "website": "<your-website>"
+  "website": "<your-website>",
+  "logo": "<url-to-your-logo>" // to be displayed in the collaborators page (optional)
 }
 ```
 
@@ -67,7 +82,7 @@ If you already endorse Data Model Extensions, please include also the field `"ex
   ]
 ```
 
-Please refer to [this example](/catalog/users/example-institution.json) to see how your `<your-user-id>.json` file should look like.
+Please refer to [this example](./catalog/examples/users/example-institution.json) to see how your `<your-user-id>.json` file should look like.
 
 ### 5. Follow the contribution-specific tests
 
@@ -86,7 +101,7 @@ From the parent directory of the repository, run
 ```sh
 git add .
 git commit -m "feat: <commit-message>"
-git push origin <your-user-id>
+git push origin <yourbranch>
 ```
 
 Please replace `<commit-message>` with a short description, such as `add <extension-id> extension`, `add <your-solution-id> solution`, or `add <tested-solution-id> test result`.

@@ -1,0 +1,8 @@
+{
+  "id": "fujitsu",
+  "name": "Fujitsu Track and Trust",
+  "version": "1.0.0",
+  "website": "https://www.fujitsu.com/jp/innovation/data-driven/capabilities/track-and-trust/",
+  "provider_id": "fujitsu",
+  "summary": "The EV Battery Management System using Fujitsu Track and Trust manages the supply chain the EV Battery manufacturing process in compliance with EU battery regulations, and calculates and visualizes greenhouse gas emissions(PCF). It provides PACT conformant data exchange function, controls the extent to which data is published (Data items can be set for each stakeholder such as suppliers and certification bodies.), and manages the supply chain.This system can manage corporate data while ensuring the reliability and transparency of data distribution using blockchain infrastructure. Fujitsu Track and Trust can manage traceability and GHG emissions across a variety of industries, including manufacturing, food and beverage, and apparel. It is also designed to comply with the Digital Produce Passport(DPP) requirements set out in the Ecodesign for Sustainable Products Regulation(ESPR)."
+}

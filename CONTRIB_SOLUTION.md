@@ -8,9 +8,13 @@ To contribute a PACT Conformant Solution, please follow these steps:
 
 From the parent directory of your local repository run
 
+<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<your-solution-id>` and `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
+
 ```sh
 mkdir -p catalog/solutions/<your-solution-id>/<your-solution-version>
 ```
+
+E.g., `mkdir -p catalog/solutions/example-solution/0.0.0`
 
 ### 2. Create a new `json` file in your solution's directory
 
@@ -20,11 +24,13 @@ From the parent directory of your local repository run
 touch catalog/solutions/<your-solution-id>/<your-solution-version>/solution.json
 ```
 
+E.g., `touch catalog/solutions/example-solution/0.0.0/solution.json`
+
+
 ### 3. Fill in your solution's details
 
 Open the `json` file created in step 4. and fill it by adapting the following structure:
 
-<strong>Please note:</strong> All text between angle brackets (`< >`) should be replaced by actual values. Please make sure that the values replacing `<your-user-id>`, `<your-solution-id>` and `<your-solution-version>` only include <strong>lowercase letters and dashes</strong> (instead of whitespace). The value replacing `<your-solution-version>` should follow the `X.Y.Z` format. Please make sure that these remain consistent.
 
 ```javascript
 {
@@ -32,7 +38,7 @@ Open the `json` file created in step 4. and fill it by adapting the following st
   "name": "<Your Solution Name>", // e.g. "Example Solution"
   "version": "<your-solution-version>", // e.g. "0.0.0"
   "website": "<your-solution-website>",
-  "provider": "<your-user-id>", // e.g. 'ABC Corp' has user id "abc" or "abc-corp"
+  "provider_id": "<your-user-id>", // e.g. 'ABC Corp' has user id "abc" or "abc-corp"
   "summary": "<summary>"
 }
 ```
