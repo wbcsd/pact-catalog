@@ -10,9 +10,9 @@
         "productDescription": {"type": "string"},
         "productDeclaredUnit": {"type": "string"},
         "mineToSmelterGhgEmissions": {"type": "number"},
-        "GeographyCountrySubdivision": {"type": "string"},
-        "GeographyCountry": {"type": "string"},
-        "GeographyRegionOrSubregion": {"type": "string"}
+        "geographyCountrySubdivision": {"type": "string"},
+        "geographyCountry": {"type": "string"},
+        "geographyRegionOrSubregion": {"type": "string"}
       },
       "required": ["mineToSmelterGhgEmissions"]
     },
