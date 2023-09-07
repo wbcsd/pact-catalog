@@ -4,7 +4,7 @@
     "extension_name": "rmi-aluminum",
     "version": "1.0.0"
   },
-  "name": "PACT RMI Aluminum Extension",
+  "name": "RMI Aluminum Extension",
   "files": ["schema.json"],
   "author": {
     "name": "RMI",
