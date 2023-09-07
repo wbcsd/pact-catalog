@@ -1,0 +1,27 @@
+{
+  "id": "auth-conformance",
+  "name": "Authentication Conformance ADR",
+  "email": "wg-authentication@pathfinder.sine.dev",
+  "description": "Dedicated Working Group to collaborate on the Authentication Conformance issue few Organization have raised.",
+  "work_in_progress": {},
+  "members": [
+    {
+      "user_id": "climatecamp"
+    },
+    {
+      "user_id": "fujitsu"
+    },
+    {
+      "user_id": "nri"
+    },
+    {
+      "user_id": "optel-group"
+    },
+    {
+      "user_id": "sdx"
+    },
+    {
+      "user_id": "sine-fdn"
+    }
+  ]
+}
