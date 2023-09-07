@@ -4,7 +4,7 @@
     "extension_name": "rmi-steel",
     "version": "1.0.0"
   },
-  "name": "PACT RMI Steel Extension Schema",
+  "name": "RMI Steel Extension",
   "files": ["schema.json"],
   "author": {
     "name": "RMI",
