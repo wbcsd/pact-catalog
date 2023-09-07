@@ -1,0 +1,21 @@
+{
+  "id": {
+    "namespace": "@rmi",
+    "extension_name": "rmi-steel",
+    "version": "1.0.0"
+  },
+  "name": "PACT RMI Steel Extension Schema",
+  "files": ["schema.json"],
+  "author": {
+    "name": "RMI",
+    "email": "ghgtransparency@rmi.org",
+    "url": "https://rmi.org"
+  },
+  "license": "MIT",
+  "catalog_info": {
+    "summary": "A Pathfinder Data Model Extension for sharing information emissions data in steel production.",
+    "status": "draft",
+    "authors": ["rmi"]
+  },
+  "industries": ["steel"]
+}

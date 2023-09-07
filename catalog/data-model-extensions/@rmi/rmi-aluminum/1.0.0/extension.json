@@ -1,0 +1,21 @@
+{
+  "id": {
+    "namespace": "@rmi",
+    "extension_name": "rmi-aluminum",
+    "version": "1.0.0"
+  },
+  "name": "PACT RMI Aluminum Extension",
+  "files": ["schema.json"],
+  "author": {
+    "name": "RMI",
+    "email": "ghgtransparency@rmi.org",
+    "url": "https://rmi.org"
+  },
+  "license": "MIT",
+  "catalog_info": {
+    "summary": "A Pathfinder Data Model Extension for sharing information emissions data in aluminum production.",
+    "status": "draft",
+    "authors": ["rmi"]
+  },
+  "industries": ["aluminum"]
+}
