@@ -41,7 +41,7 @@
           "type": "object",
           "items": {"$ref": "#/$defs/valueAddedProduct"}
         },
-        "required": ["mineToSmelter"]
+        "required": {"$ref": "#/$defs/mineToSmelter"}
       }
     },
     "fullBoundary": {
