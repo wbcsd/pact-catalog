@@ -11,7 +11,7 @@
     "email": "ghgtransparency@rmi.org",
     "url": "https://rmi.org"
   },
-  "license": "MIT", // select one
+  "license": "MIT",
   "catalog_info": {
     "summary": "A Pathfinder Data Model Extension for sharing information emissions data in steel production.",
     "status": "draft",
