@@ -1,10 +1,8 @@
 {
-  "id": "SalesforceNZC",
+  "id": "salesforce",
   "kind": "solutionprovider",
-  "name": "SalesforceNZC",
+  "name": "Salesforce",
   "email": "jon.powell@salesforce.com",
-  "website": 
-"https://www.salesforce.com/ca/products/net-zero-cloud/overview/",
-  "logo": 
-"https://www.salesforce.com/content/dam/web/en_us/www/images/industries/sustainability-cloud/sustainability-icon-55x55.png"
+  "website": "https://www.salesforce.com/ca/products/net-zero-cloud/overview/",
+  "logo": "https://www.salesforce.com/content/dam/web/en_us/www/images/industries/sustainability-cloud/sustainability-icon-55x55.png"
 }
