@@ -5,8 +5,7 @@
   },
   "tested_by": {
     "solution_id": "carbontrail",
-    "version": "1.0.0",
-    "solution_name": "Carbon Trail"
+    "version": "1.0.0"
   },
   "test_result": "passed",
   "test_date": "2023-07-19T11:00:00Z",

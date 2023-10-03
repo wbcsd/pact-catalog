@@ -5,8 +5,7 @@
   },
   "tested_by": {
     "solution_id": "carbonblock",
-    "version": "1.0.0",
-    "solution_name": "CarbonBlock"
+    "version": "1.0.0"
   },
   "test_result": "passed",
   "test_date": "2023-05-11T00:00:00Z",
