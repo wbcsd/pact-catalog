@@ -1,6 +1,6 @@
 # PACT Online Catalog
 
-This repository holds the [PACT Online Catalog](https://pact-catalog.sine.dev).
+This repository holds the [PACT Catalog](https://pact-catalog.sine.dev).
 
 ## Contribute
 

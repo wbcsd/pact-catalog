@@ -1,0 +1,77 @@
+{
+  "$id": "https://github.dev/RMI/aluminum-guidance/blob/main/samples/aluminum_sample.json",
+  "$schema": "https://github.com/RMI/metals-guidance/blob/main/specs/aluminum_json_schema.json",
+  "title": "PACT RMI Aluminum Extension Schema",
+  "description": "A Pathfinder Data Model Extension for sharing information emissions data in aluminum production.",
+  "$defs": {
+    "mineToSmelter": {
+      "type": "object",
+      "properties": {
+        "productDescription": {"type": "string"},
+        "productDeclaredUnit": {"type": "string"},
+        "mineToSmelterGhgEmissions": {"type": "number"},
+        "geographyCountrySubdivision": {"type": "string"},
+        "geographyCountry": {"type": "string"},
+        "geographyRegionOrSubregion": {"type": "string"}
+      },
+      "required": ["mineToSmelterGhgEmissions"]
+    },
+    "valueAddedProduct": {
+      "type": "object",
+      "properties": {
+        "productDescription": {"type": "string"},
+        "productDeclaredUnit": {"type": "string"},
+        "ghgEmissionsCutoff": {"type": "number"},
+        "ghgEmissionsAllocation": {"type": "number"},
+        "scrapBasedShare": {"type": "number"},
+        "postConsumerScrapBasedShare": {"type": "number"}
+      },
+      "required": ["ghgEmissionsCutoff","ghgEmissionsAllocation","scrapBasedShare"]
+    }, 
+    "benchmarking": {
+      "type": "object",
+      "properties":{
+        "referencePeriodStart": {"type": "string"},
+        "referencePeriodEnd": {"type": "string"},
+        "mineToSmelter": {
+          "type": "object",
+          "items": {"$ref": "#/$defs/mineToSmelter"}
+        },
+        "valueAddedProduct": {
+          "type": "object",
+          "items": {"$ref": "#/$defs/valueAddedProduct"}
+        },
+        "required": {"$ref": "#/$defs/mineToSmelter"}
+      }
+    },
+    "fullBoundary": {
+      "type": "object",
+      "properties": {
+        "referencePeriodStart": {"type": "string"},
+        "referencePeriodEnd": {"type": "string"},
+        "productDescription": {"type": "string"},
+        "productDeclaredUnit": {"type": "string"},
+        "productAmount": {"type": "number"},
+        "ghgEmissionsCutoff": {"type": "number"},
+        "ghgEmissionsAllocation": {"type": "number"},
+        "geographyCountrySubdivision": {"type": "string"},
+        "geographyCountry": {"type": "string"},
+        "geographyRegionOrSubregion": {"type": "number"}
+      },
+      "required": ["ghgEmissionsCutoff","ghgEmissionsAllocation","geographyCountry"]
+    }
+  },
+  "type": "object",
+  "properties": {
+    "benchmarkingFootprint": {
+      "type": "object",
+      "items": {"$ref": "#/$defs/benchmarking"}
+      },
+    "fullBoundary": {
+      "type": "object",
+      "items": {"$ref": "#/$defs/fullBoundary"}
+      }
+       
+  },
+  "required": ["benchmarkingFootprint"]
+}
