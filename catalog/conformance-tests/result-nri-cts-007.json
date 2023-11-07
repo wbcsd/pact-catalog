@@ -1,0 +1,14 @@
+{
+  "tested_solution": {
+    "solution_id": "nri-cts",
+    "version": "0.9.15"
+  },
+  "tested_by": {
+    "solution_name": "Product Ecosystem by CO2 AI",
+    "version": "1.0.0",
+    "solution_id": "co2ai"
+  },
+  "test_result": "passed",
+  "test_date": "2023-10-31T09:40:00Z",
+  "pathfinder_version": "2.0.1"
+}
