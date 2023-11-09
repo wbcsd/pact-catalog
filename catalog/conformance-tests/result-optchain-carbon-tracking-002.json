@@ -1,0 +1,14 @@
+{
+    "tested_solution": {
+      "solution_id": "optchain-carbon-tracking",
+      "version": "1.0.0"  
+    },
+    "tested_by": {
+      "solution_name": "SAP Sustainability Data Exchange (SDX)",
+      "version": "0.8.0",
+      "solution_id": "sdx"
+    },
+    "test_result": "passed",
+    "test_date": "2023-10-30T09:00:00Z",
+    "pathfinder_version": "2.0.1"
+  }
