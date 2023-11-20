@@ -1,0 +1,14 @@
+{
+    "tested_solution": {
+      "solution_id": "co2ai",
+      "version": "1.0.0"
+    },
+    "tested_by": {
+      "solution_id": "nri-cts",
+      "version": "0.9.15"
+    },
+    "test_result": "passed",
+    "test_date": "2023-11-20T02:00:00Z",
+    "pathfinder_version": "2.0.0",
+    "extensions_tested": []
+}
