@@ -1,0 +1,9 @@
+{
+  "id": "greenstitch-io",
+  "name": "GreenStitch",
+  "version": "2.0.0",
+  "website": "https://greenstitch.io/",
+  "provider_id": "greenstitch-io",
+  "summary": "GreenStitch is a comprehensive Carbon Management Saas for Fashion & Textile. We help manufacturer and fashion brand manage their environmental impact in real time.",
+  "industries": ["textile", "fashion"]
+}
