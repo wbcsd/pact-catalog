@@ -97,7 +97,11 @@ async function validateAllExtensions(): Promise<void> {
   }
 }
 
-async function validateSolution(id: string, version: string, solutionDir: string): Promise<number> {
+async function validateSolution(
+  id: string,
+  version: string,
+  solutionDir: string
+): Promise<number> {
   console.log(`checking ${solutionDir}`);
   try {
     const solutionFile = path.join(solutionDir, "solution.json");
@@ -137,7 +141,11 @@ async function validateAllSolutions(): Promise<void> {
       if (!fs.statSync(versionDir).isDirectory()) {
         continue;
       }
-      const subdirErrorCode = await validateSolution(solution, version, versionDir);
+      const subdirErrorCode = await validateSolution(
+        solution,
+        version,
+        versionDir
+      );
       if (subdirErrorCode !== 0) {
         errorCode = 1;
         console.error(`${versionDir} is not a valid solution`);
@@ -149,16 +157,77 @@ async function validateAllSolutions(): Promise<void> {
   }
 }
 
+async function validateTestResult(testResultFile: string): Promise<number> {
+  try {
+    const solutionsDir = path.join(process.cwd(), "catalog/solutions");
+    const solutionsList: string[] = [];
+    for (const solution of fs.readdirSync(solutionsDir)) {
+      const solutionPath = path.join(solutionsDir, solution);
+
+      if (fs.statSync(solutionPath).isDirectory()) {
+        const solutionVersions = fs.readdirSync(solutionPath);
+
+        for (const version of solutionVersions) {
+          solutionsList.push(`${solution}/${version}`);
+        }
+      }
+    }
+
+    const testResultJson = JSON.parse(fs.readFileSync(testResultFile, "utf8"));
+    TestResultParser.parse(testResultJson);
+    const { solution_id, version } = testResultJson.tested_solution;
+
+    if (!solutionsList.includes(`${solution_id}/${version}`)) {
+      if (!fs.readdirSync(solutionsDir).includes(solution_id)) {
+        console.error(
+          `There is no solution with id ${solution_id} in the catalog. Please make sure the conformance test json is correct.`
+        );
+        return 1;
+      } else {
+        console.error(
+          `The version ${version} of solution ${solution_id} is not yet in the catalog.`
+        );
+        return 1;
+      }
+    }
+  } catch (error) {
+    console.error(error);
+    return 1;
+  }
+
+  return 0;
+}
+
+async function validateAllTestResults(): Promise<void> {
+  let errorCode = 0;
+
+  const conformanceTestDir = path.join(
+    process.cwd(),
+    "catalog/conformance-tests"
+  );
+  const conformanceTests = fs.readdirSync(conformanceTestDir);
+
+  for (const conformanceTest of conformanceTests) {
+    const conformanceTestFile = path.join(conformanceTestDir, conformanceTest);
+    let errorCode = validateTestResult(conformanceTestFile);
+  }
+
+  if (errorCode !== 0) {
+    process.exit(errorCode);
+  }
+}
+
 async function validateAll(): Promise<void> {
   await validateAllExtensions();
   await validateAllSolutions();
+  await validateAllTestResults();
   for (const { dir, parser } of [
     { dir: "./catalog/conformance-tests", parser: TestResultParser },
     { dir: "./catalog/users", parser: UserParser },
     { dir: "./catalog/working-groups", parser: WorkingGroupParser },
   ]) {
     for (const file of fs.readdirSync(dir).filter((file) => {
-      return path.extname(file).toLowerCase() === '.json';
+      return path.extname(file).toLowerCase() === ".json";
     })) {
       const jsonFile = path.join(dir, file);
       console.log(`checking ${jsonFile}`);
@@ -179,4 +248,10 @@ if (require.main === module) {
     console.error(e);
     process.exit(1);
   });
+}
+function globbySync(
+  solutionsDirectory: any,
+  arg1: { expandDirectories: { files: string[] } }
+) {
+  throw new Error("Function not implemented.");
 }
