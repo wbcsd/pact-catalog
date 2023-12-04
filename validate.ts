@@ -208,12 +208,16 @@ async function validateAllTestResults(): Promise<void> {
 
   for (const conformanceTest of conformanceTests) {
     const conformanceTestFile = path.join(conformanceTestDir, conformanceTest);
-    let errorCode = validateTestResult(conformanceTestFile);
+    const subdirErrorCode = await validateTestResult(conformanceTestFile);
+    if (subdirErrorCode !== 0) {
+      errorCode = 1;
+    }
   }
 
   if (errorCode !== 0) {
-    process.exit(errorCode);
+    return Promise.reject("At least 1 conformance test is not valid.")
   }
+
 }
 
 async function validateAll(): Promise<void> {
