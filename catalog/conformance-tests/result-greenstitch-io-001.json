@@ -1,0 +1,14 @@
+{
+  "tested_solution": {
+    "solution_id": "greenstitch-io",
+    "version": "2.0.0"
+  },
+  "tested_by": {
+    "solution_name": "Optchain - Carbon Tracking solution",
+    "version": "2.0.1",
+    "solution_id": "optchain-carbon-tracking"
+  },
+  "test_result": "passed",
+  "test_date": "2023-12-01T09:30:00Z",
+  "pathfinder_version": "2.0.0"
+}
