@@ -1,7 +1,9 @@
 import * as fs from "fs";
 import * as path from "path";
 import {
+  ExtensionJsonSchema,
   ExtensionParser,
+  SolutionJsonSchema,
   SolutionParser,
   TestResultParser,
   UserParser,
@@ -18,8 +20,7 @@ async function validateExtension(
   console.log(`checking ${extensionDir}`);
   try {
     const extensionFile = path.join(extensionDir, "extension.json");
-    const extension = JSON.parse(fs.readFileSync(extensionFile, "utf8"));
-    ExtensionParser.parse(extension);
+    const extension: ExtensionJsonSchema = ExtensionParser.parse(JSON.parse(fs.readFileSync(extensionFile, "utf8")));
 
     if (extension.id.namespace !== namespace) {
       console.error(
@@ -105,8 +106,7 @@ async function validateSolution(
   console.log(`checking ${solutionDir}`);
   try {
     const solutionFile = path.join(solutionDir, "solution.json");
-    const solution = JSON.parse(fs.readFileSync(solutionFile, "utf8"));
-    SolutionParser.parse(solution);
+    const solution: SolutionJsonSchema = SolutionParser.parse(JSON.parse(fs.readFileSync(solutionFile, "utf8")));
 
     if (solution.id !== id) {
       console.error(
@@ -173,8 +173,7 @@ async function validateTestResult(testResultFile: string): Promise<number> {
       }
     }
 
-    const testResultJson = JSON.parse(fs.readFileSync(testResultFile, "utf8"));
-    TestResultParser.parse(testResultJson);
+    const testResultJson = TestResultParser.parse(JSON.parse(fs.readFileSync(testResultFile, "utf8")));
     const { solution_id, version } = testResultJson.tested_solution;
 
     if (!solutionsList.includes(`${solution_id}/${version}`)) {
@@ -248,10 +247,4 @@ if (require.main === module) {
     console.error(e);
     process.exit(1);
   });
-}
-function globbySync(
-  solutionsDirectory: any,
-  arg1: { expandDirectories: { files: string[] } }
-) {
-  throw new Error("Function not implemented.");
 }
