@@ -1,9 +1,0 @@
-{
- "id": "climatecamp",
- "name": "ClimateCamp",
- "version": "2.0.0",
- "website": "https://www.climatecamp.io/features",
- "provider_id": "climatecamp",
- "summary": "ClimateCamp is the most collaborative sustainability platform, connecting customer and supplier organizations on real emissions data, targets and reductions initiatives. ClimateCamp guides organizations in uncovering the hidden 85% of their greenhouse gas emissions (GHG), helping meet SBTI and CSRD requirements, easily manage the Scope 1, 2, and 3 emissions and get visibility of the value chain emissions.",
- "extensions": []
-}
