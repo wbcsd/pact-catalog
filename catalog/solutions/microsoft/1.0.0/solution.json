@@ -1,8 +1,8 @@
 {
-    "id": "sustainability-cloud-platform",
+    "id": "microsoft",
     "name": "Microsoft Cloud for Sustainability", 
     "version": "1.0.0", 
     "website": "https://www.microsoft.com/en-us/sustainability/cloud",
-    "provider_id": "microsoft-corp",
+    "provider_id": "microsoft",
     "summary": "A growing set of ESG (environmental, social, and governance) capabilities from Microsoft and our global partners, empowering organizations to accelerate sustainability progress and business growth. Start recording, reporting, and reducing your environmental impact with Microsoft Sustainability Manager—a Microsoft Cloud for Sustainability solution—now available in Essentials and Premium versions."
   }
