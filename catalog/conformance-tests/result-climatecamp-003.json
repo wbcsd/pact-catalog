@@ -1,0 +1,13 @@
+{
+  "tested_solution": {
+    "solution_id": "climatecamp",
+    "version": "2.0.0"
+  },
+  "tested_by": {
+    "collaborator_id": "unilever"
+  },
+  "test_result": "passed",
+  "test_date": "2023-07-26T09:00:00Z",
+  "pathfinder_version": "2.0.0",
+  "extensions_tested": []
+}
