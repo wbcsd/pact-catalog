@@ -4,9 +4,7 @@
     "version": "2.0.0"
   },
   "tested_by": {
-    "solution_id": "unilever",
-    "version": "1.0.0",
-    "solution_name": "Unilever"
+    "collaborator_id": "unilever"
   },
   "test_result": "passed",
   "test_date": "2023-07-26T09:00:00Z",
