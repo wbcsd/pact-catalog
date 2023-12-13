@@ -1,8 +1,8 @@
 {
     "id": "sdx",
     "name": "SAP Sustainability Data Exchange (SDX)",
-    "version": "0.8.0",
-    "website": "https://green-token.io",
+    "version": "1.0.0",
+    "website": "https://www.sap.com/sustainability/climate-action.html",
     "provider_id": "sdx",
     "summary": "SAP Sustainability Data Exchange (SDX) allows companies to effectively share emissions and other data with their customers to help companies decarbonize their value chains.",
     "extensions": []

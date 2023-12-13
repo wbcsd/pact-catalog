@@ -1,0 +1,14 @@
+{
+  "tested_solution": {
+    "solution_id": "sdx",
+    "version": "1.0.0"
+  },
+  "tested_by": {
+    "solution_id": "climatecamp",
+    "version": "2.0.0"
+  },
+  "test_result": "passed",
+  "test_date": "2023-12-11T09:00:00Z",
+  "pathfinder_version": "2.0.1",
+  "extensions_tested": []
+}
