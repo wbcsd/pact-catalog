@@ -1,8 +1,8 @@
 {
   "id": "iii-pactdev",
-  "name": "Digital Carbon Dioxide Reduction Cloud (DCDRC)",
+  "name": "Digital Sustainability Cloud (DSC)",
   "version": "2.0.0",
   "website": "https://ideas-dtri.iii.org.tw/",
   "provider_id": "iii-pactdev",
-  "summary": "The goal of the Institute for Information Industry (III) is to drive innovation and application of information and communication technologies in Taiwan, facilitating the development of the digital economy. It positions itself as a driver of digital transformation."
+  "summary": "The Digital Sustainability Cloud provides a way for enterprises to share transparent emission data, assists in carbon emission supervision, carbon reduction measures, and promotes sustainable development."
 }
