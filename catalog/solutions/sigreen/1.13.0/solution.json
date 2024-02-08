@@ -1,7 +1,7 @@
 {
     "id": "sigreen",
     "name": "Siemens SiGREEN",
-    "version": "2.0.0",
+    "version": "1.13.0",
     "website": "https://siemens.com/sigreen",
     "provider_id": "siemens-pcf",
     "summary": "SiGREEN turns PCF data into an effective management tool beyond static reporting. The aggregation of PCF, determined at the respective stages of the supply chain, not only enables a more accurate calculation, but also quantifies the impact of changes at one point in the subsequent chain. With efficient communication embedded, regular updates from suppliers are enabled. This allows to define reduction measures and makes their effectiveness measurable.",
