@@ -1,0 +1,8 @@
+{
+  "id": "siemens-pcf", 
+  "kind": "solutionprovider", 
+  "name": "Siemens AG", 
+  "email": "sigreeninfo.industry@siemens.com",
+  "website": "https://www.siemens.com/sigreen",
+  "logo": "https://assets.new.siemens.com/siemens/assets/api/uuid:e92c34b5-4a52-4488-93c6-80b3ddfe2782/width:640/quality:high/e92c34b5-4a52-4488-93c6-80b3ddfe2782.webp" 
+}
