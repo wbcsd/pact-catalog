@@ -1,0 +1,8 @@
+{
+  "id": "variable",
+  "name": "Variable",
+  "version": "1.0.0",
+  "website": "https://variable.co",
+  "provider_id": "variable",
+  "summary": "Variable is a climate data platform that enables manufacturing companies to create product carbon footprints (PCF) using supplier specific scope 3 data, enabling accurate calculations and real emission reductions -- at scale."
+}
