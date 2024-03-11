@@ -1,0 +1,13 @@
+{
+  "tested_solution": {
+    "solution_id": "variable",
+    "version": "1.0.0"
+  },
+  "tested_by": {
+    "solution_id": "sdx",
+    "version": "1.0.0"
+  },
+  "test_result": "passed",
+  "test_date": "2024-03-05T15:10:00Z",
+  "pathfinder_version": "2.1.0"
+}
