@@ -1,3 +1,6 @@
+| :exclamation:  The PACT Catalog beta has been discontinued and will be replaced by new functionality in [PACT's website](https://carbon-transparency.com). |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
 # PACT Online Catalog
 
 This repository holds the [PACT Catalog](https://pact-catalog.sine.dev).
